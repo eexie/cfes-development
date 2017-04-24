@@ -1,0 +1,4 @@
+enabled: '1'
+content: 'Canadian Federation of Engineering Students'
+css:
+  class: branding

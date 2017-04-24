@@ -1,0 +1,8 @@
+enabled: '1'
+menu: nav
+base: /
+startLevel: '1'
+maxLevels: '2'
+renderTitles: '0'
+hoverExpand: '1'
+mobileTarget: '1'

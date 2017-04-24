@@ -1,12 +1,11 @@
 name: home
-timestamp: 1493058265
+timestamp: 1493075338
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/home.png'
   name: home
   timestamp: 1493058262
-positions:
-  footer: Footer
+positions: {  }
 sections:
   header: Header
   navigation: Navigation
@@ -17,22 +16,40 @@ sections:
   footer: Footer
   offcanvas: Offcanvas
 particles:
+  logo:
+    logo-5738: Logo
   menu:
-    menu-7498: Menu
+    menu-2241: Menu
   sample:
-    sample-1: 'Gantry 5'
-    sample-2: 'Getting Started'
+    sample-1: Header
     sample-3: 'Key Features'
+    sample-2: 'Getting Started'
   messages:
     system-messages-9871: 'System Messages'
-  position:
-    position-footer: Footer
+  widget:
+    position-widget-3397: ABOUT
+    position-widget-5339: 'EVENTS & SERVICES'
+    position-widget-1221: RESOURCES
+    position-widget-4368: CONTACT
   copyright:
-    copyright-5636: Copyright
-  social:
-    social-7177: Social
+    copyright-5534: Copyright
   branding:
-    branding-4767: Branding
+    branding-6435: Branding
+  social:
+    social-9066: Social
   mobile-menu:
     mobile-menu-3057: 'Mobile Menu'
-inherit: {  }
+inherit:
+  default:
+    header: header
+    logo-5738: logo-1568
+    navigation: navigation
+    menu-2241: menu-7498
+    footer: footer
+    position-widget-3397: position-widget-9065
+    position-widget-5339: position-widget-9818
+    position-widget-1221: position-widget-7280
+    position-widget-4368: position-widget-5324
+    copyright-5534: copyright-5636
+    branding-6435: branding-4767
+    social-9066: social-7177

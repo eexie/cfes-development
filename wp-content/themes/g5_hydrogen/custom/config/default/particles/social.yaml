@@ -1,0 +1,17 @@
+enabled: '1'
+css:
+  class: social
+title: Social
+target: _blank
+display: icons_only
+items:
+  -
+    icon: 'fa fa-facebook-square'
+    text: Facebook
+    link: 'https://www.facebook.com/cfes.fceg/'
+    name: Facebook
+  -
+    icon: 'fa fa-flickr'
+    text: Flickr
+    link: 'https://www.flickr.com/photos/147682432@N05'
+    name: Flickr

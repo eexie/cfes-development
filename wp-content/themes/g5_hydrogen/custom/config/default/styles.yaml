@@ -1,0 +1,47 @@
+preset: preset1
+header:
+  background: '#035ea4'
+  text-color: '#ffffff'
+showcase:
+  background: '#354d59'
+  image: 'gantry-media://32470166304_55f27f3117_z.jpg'
+  text-color: '#ffffff'
+subfeature:
+  background: '#f0f0f0'
+  text-color: '#333333'
+feature:
+  background: '#ffffff'
+  text-color: '#333333'
+footer:
+  background: '#035ea4'
+  text-color: '#ffffff'
+main:
+  background: '#ffffff'
+  text-color: '#333333'
+navigation:
+  background: '#ffffff'
+  text-color: '#333333'
+  overlay: '#ffffff'
+offcanvas:
+  background: '#e6e6e6'
+  text-color: '#035ea4'
+  width: 100%
+  toggle-color: '#ffffff'
+  toggle-visibility: '1'
+base:
+  background: '#ffffff'
+  text-color: '#333333'
+  body-font: 'roboto, sans-serif'
+  heading-font: 'roboto, sans-serif'
+accent:
+  color-1: '#035ea4'
+  color-2: '#fff282'
+breakpoints:
+  large-desktop-container: 75rem
+  desktop-container: 60rem
+  tablet-container: 48rem
+  large-mobile-container: 30rem
+  mobile-menu-breakpoint: 48rem
+menu:
+  col-width: 250px
+  animation: g-fade

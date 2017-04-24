@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1493058271,
-    'checksum' => 'd3324534d31b0a05f03218dfb88c6a20',
+    'timestamp' => 1493075356,
+    'checksum' => 'c0c4f5a525b3ee86f01eb6c457c5d364',
     'files' => [
         'wp-content/themes/g5_hydrogen/custom/config/home' => [
             'assignments' => [
@@ -11,21 +11,105 @@ return [
             ],
             'index' => [
                 'file' => 'wp-content/themes/g5_hydrogen/custom/config/home/index.yaml',
-                'modified' => 1493058270
+                'modified' => 1493075338
             ],
             'layout' => [
                 'file' => 'wp-content/themes/g5_hydrogen/custom/config/home/layout.yaml',
-                'modified' => 1493058265
+                'modified' => 1493075338
             ]
         ],
         'wp-content/themes/g5_hydrogen/custom/config/default' => [
             'index' => [
                 'file' => 'wp-content/themes/g5_hydrogen/custom/config/default/index.yaml',
-                'modified' => 1493058265
+                'modified' => 1493068441
             ],
             'layout' => [
                 'file' => 'wp-content/themes/g5_hydrogen/custom/config/default/layout.yaml',
-                'modified' => 1493058265
+                'modified' => 1493068441
+            ],
+            'page/assets' => [
+                'file' => 'wp-content/themes/g5_hydrogen/custom/config/default/page/assets.yaml',
+                'modified' => 1493060883
+            ],
+            'page/body' => [
+                'file' => 'wp-content/themes/g5_hydrogen/custom/config/default/page/body.yaml',
+                'modified' => 1493060883
+            ],
+            'page/head' => [
+                'file' => 'wp-content/themes/g5_hydrogen/custom/config/default/page/head.yaml',
+                'modified' => 1493060883
+            ],
+            'particles/branding' => [
+                'file' => 'wp-content/themes/g5_hydrogen/custom/config/default/particles/branding.yaml',
+                'modified' => 1493065084
+            ],
+            'particles/content' => [
+                'file' => 'wp-content/themes/g5_hydrogen/custom/config/default/particles/content.yaml',
+                'modified' => 1493065084
+            ],
+            'particles/contentarray' => [
+                'file' => 'wp-content/themes/g5_hydrogen/custom/config/default/particles/contentarray.yaml',
+                'modified' => 1493065084
+            ],
+            'particles/copyright' => [
+                'file' => 'wp-content/themes/g5_hydrogen/custom/config/default/particles/copyright.yaml',
+                'modified' => 1493065084
+            ],
+            'particles/custom' => [
+                'file' => 'wp-content/themes/g5_hydrogen/custom/config/default/particles/custom.yaml',
+                'modified' => 1493065084
+            ],
+            'particles/date' => [
+                'file' => 'wp-content/themes/g5_hydrogen/custom/config/default/particles/date.yaml',
+                'modified' => 1493065084
+            ],
+            'particles/loginform' => [
+                'file' => 'wp-content/themes/g5_hydrogen/custom/config/default/particles/loginform.yaml',
+                'modified' => 1493065084
+            ],
+            'particles/logo' => [
+                'file' => 'wp-content/themes/g5_hydrogen/custom/config/default/particles/logo.yaml',
+                'modified' => 1493065084
+            ],
+            'particles/menu' => [
+                'file' => 'wp-content/themes/g5_hydrogen/custom/config/default/particles/menu.yaml',
+                'modified' => 1493065084
+            ],
+            'particles/messages' => [
+                'file' => 'wp-content/themes/g5_hydrogen/custom/config/default/particles/messages.yaml',
+                'modified' => 1493065084
+            ],
+            'particles/mobile-menu' => [
+                'file' => 'wp-content/themes/g5_hydrogen/custom/config/default/particles/mobile-menu.yaml',
+                'modified' => 1493065084
+            ],
+            'particles/position' => [
+                'file' => 'wp-content/themes/g5_hydrogen/custom/config/default/particles/position.yaml',
+                'modified' => 1493065084
+            ],
+            'particles/sample' => [
+                'file' => 'wp-content/themes/g5_hydrogen/custom/config/default/particles/sample.yaml',
+                'modified' => 1493065084
+            ],
+            'particles/social' => [
+                'file' => 'wp-content/themes/g5_hydrogen/custom/config/default/particles/social.yaml',
+                'modified' => 1493065084
+            ],
+            'particles/spacer' => [
+                'file' => 'wp-content/themes/g5_hydrogen/custom/config/default/particles/spacer.yaml',
+                'modified' => 1493065084
+            ],
+            'particles/totop' => [
+                'file' => 'wp-content/themes/g5_hydrogen/custom/config/default/particles/totop.yaml',
+                'modified' => 1493065084
+            ],
+            'particles/widget' => [
+                'file' => 'wp-content/themes/g5_hydrogen/custom/config/default/particles/widget.yaml',
+                'modified' => 1493065084
+            ],
+            'styles' => [
+                'file' => 'wp-content/themes/g5_hydrogen/custom/config/default/styles.yaml',
+                'modified' => 1493069635
             ]
         ],
         'wp-content/themes/g5_hydrogen/config/default' => [
@@ -41,14 +125,14 @@ return [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true
+                'enabled' => '1'
             ],
             'branding' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true,
-                'content' => 'Powered by <a href="http://www.gantry.org/" title="Gantry Framework" class="g-powered-by">Gantry Framework</a>',
+                'enabled' => '1',
+                'content' => 'Canadian Federation of Engineering Students',
                 'css' => [
                     'class' => 'branding'
                 ]
@@ -57,11 +141,12 @@ return [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true,
+                'enabled' => '1',
                 'date' => [
                     'start' => 'now',
                     'end' => 'now'
-                ]
+                ],
+                'owner' => ''
             ],
             'custom' => [
                 'caching' => [
@@ -71,7 +156,7 @@ return [
                         'filter' => '0'
                     ]
                 ],
-                'enabled' => true,
+                'enabled' => '1',
                 'twig' => '0',
                 'filter' => '0'
             ],
@@ -80,43 +165,61 @@ return [
                     'type' => 'static'
                 ],
                 'enabled' => '1',
-                'link' => true,
+                'link' => '1',
                 'url' => '',
-                'image' => 'gantry-assets://images/gantry5-logo.png',
-                'text' => 'Gantry 5',
-                'class' => 'gantry-logo'
+                'image' => 'gantry-media://logo.png',
+                'text' => 'CFES',
+                'class' => 'gantry-logo',
+                'svg' => ''
             ],
             'mobile-menu' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true
+                'enabled' => '1'
             ],
             'social' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true,
+                'enabled' => '1',
                 'css' => [
                     'class' => 'social'
                 ],
                 'target' => '_blank',
-                'display' => 'both'
+                'display' => 'icons_only',
+                'title' => 'Social',
+                'items' => [
+                    0 => [
+                        'icon' => 'fa fa-facebook-square',
+                        'text' => 'Facebook',
+                        'link' => 'https://www.facebook.com/cfes.fceg/',
+                        'name' => 'Facebook'
+                    ],
+                    1 => [
+                        'icon' => 'fa fa-flickr',
+                        'text' => 'Flickr',
+                        'link' => 'https://www.flickr.com/photos/147682432@N05',
+                        'name' => 'Flickr'
+                    ]
+                ]
             ],
             'spacer' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true
+                'enabled' => '1'
             ],
             'totop' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true,
+                'enabled' => '1',
                 'css' => [
                     'class' => 'totop'
-                ]
+                ],
+                'icon' => '',
+                'content' => ''
             ],
             'analytics' => [
                 'enabled' => true,
@@ -132,10 +235,10 @@ return [
                 'in_footer' => false
             ],
             'content' => [
-                'enabled' => true
+                'enabled' => '1'
             ],
             'contentarray' => [
-                'enabled' => true,
+                'enabled' => '1',
                 'post' => [
                     'filter' => [
                         'sticky' => ''
@@ -154,14 +257,17 @@ return [
                             'enabled' => 'show'
                         ],
                         'title' => [
-                            'enabled' => 'show'
+                            'enabled' => 'show',
+                            'limit' => ''
                         ],
                         'date' => [
                             'enabled' => 'published',
-                            'format' => 'l, F d, Y'
+                            'format' => 'j F Y'
                         ],
                         'read_more' => [
-                            'enabled' => 'show'
+                            'enabled' => 'show',
+                            'label' => '',
+                            'css' => ''
                         ],
                         'author' => [
                             'enabled' => 'show'
@@ -178,15 +284,21 @@ return [
                             'formatting' => 'text'
                         ]
                     ]
+                ],
+                'css' => [
+                    'class' => ''
+                ],
+                'extra' => [
+                    
                 ]
             ],
             'date' => [
-                'enabled' => true,
+                'enabled' => '1',
                 'css' => [
                     'class' => 'date'
                 ],
                 'date' => [
-                    'formats' => 'l, F d, Y'
+                    'formats' => 'j F Y'
                 ]
             ],
             'frameworks' => [
@@ -211,28 +323,33 @@ return [
                 'enabled' => true
             ],
             'loginform' => [
-                'enabled' => true,
+                'enabled' => '1',
                 'title' => 'Login',
-                'greeting' => 'Hi, %s'
+                'greeting' => 'Hi, %s',
+                'class' => '',
+                'pretext' => '',
+                'posttext' => ''
             ],
             'menu' => [
-                'enabled' => true,
-                'menu' => '',
+                'enabled' => '1',
+                'menu' => 'nav',
                 'base' => '/',
-                'startLevel' => 1,
-                'maxLevels' => 0,
-                'renderTitles' => 0,
-                'hoverExpand' => 1,
-                'mobileTarget' => 0
+                'startLevel' => '1',
+                'maxLevels' => '2',
+                'renderTitles' => '0',
+                'hoverExpand' => '1',
+                'mobileTarget' => '1'
             ],
             'messages' => [
-                'enabled' => true
+                'enabled' => '1'
             ],
             'position' => [
-                'enabled' => true
+                'enabled' => '1',
+                'chrome' => ''
             ],
             'widget' => [
-                'enabled' => true
+                'enabled' => '1',
+                'chrome' => ''
             ]
         ],
         'content' => [
@@ -395,25 +512,48 @@ return [
             'body' => [
                 'class' => 'gantry',
                 'attribs' => [
-                    'class' => 'gantry'
+                    'class' => 'gantry',
+                    'id' => '',
+                    'extra' => [
+                        
+                    ]
                 ],
                 'layout' => [
-                    'sections' => 0
-                ]
+                    'sections' => '0'
+                ],
+                'body_top' => '',
+                'body_bottom' => ''
             ],
             'assets' => [
                 'priority' => 0,
-                'in_footer' => false
+                'in_footer' => false,
+                'favicon' => 'gantry-media://logo.png',
+                'touchicon' => '',
+                'css' => [
+                    
+                ],
+                'javascript' => [
+                    
+                ]
+            ],
+            'head' => [
+                'meta' => [
+                    
+                ],
+                'head_bottom' => '',
+                'atoms' => [
+                    
+                ]
             ]
         ],
         'styles' => [
             'accent' => [
-                'color-1' => '#439a86',
-                'color-2' => '#8f4dae'
+                'color-1' => '#035ea4',
+                'color-2' => '#fff282'
             ],
             'base' => [
                 'background' => '#ffffff',
-                'text-color' => '#666666',
+                'text-color' => '#333333',
                 'body-font' => 'roboto, sans-serif',
                 'heading-font' => 'roboto, sans-serif'
             ],
@@ -426,49 +566,50 @@ return [
             ],
             'feature' => [
                 'background' => '#ffffff',
-                'text-color' => '#666666'
+                'text-color' => '#333333'
             ],
             'footer' => [
-                'background' => '#ffffff',
-                'text-color' => '#666666'
+                'background' => '#035ea4',
+                'text-color' => '#ffffff'
             ],
             'header' => [
-                'background' => '#2a816d',
+                'background' => '#035ea4',
                 'text-color' => '#ffffff'
             ],
             'main' => [
                 'background' => '#ffffff',
-                'text-color' => '#666666'
+                'text-color' => '#333333'
             ],
             'menu' => [
-                'col-width' => '180px',
+                'col-width' => '250px',
                 'animation' => 'g-fade'
             ],
             'navigation' => [
-                'background' => '#439a86',
-                'text-color' => '#ffffff',
-                'overlay' => 'rgba(0, 0, 0, 0.4)'
+                'background' => '#ffffff',
+                'text-color' => '#333333',
+                'overlay' => '#ffffff'
             ],
             'offcanvas' => [
-                'background' => '#354d59',
-                'text-color' => '#ffffff',
-                'width' => '17rem',
+                'background' => '#e6e6e6',
+                'text-color' => '#035ea4',
+                'width' => '100%',
                 'toggle-color' => '#ffffff',
-                'toggle-visibility' => 1
+                'toggle-visibility' => '1'
             ],
             'showcase' => [
                 'background' => '#354d59',
-                'image' => '',
+                'image' => 'gantry-media://32470166304_55f27f3117_z.jpg',
                 'text-color' => '#ffffff'
             ],
             'subfeature' => [
                 'background' => '#f0f0f0',
-                'text-color' => '#666666'
-            ]
+                'text-color' => '#333333'
+            ],
+            'preset' => 'preset1'
         ],
         'index' => [
             'name' => 'home',
-            'timestamp' => 1493058265,
+            'timestamp' => 1493075338,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/home.png',
@@ -476,7 +617,7 @@ return [
                 'timestamp' => 1493058262
             ],
             'positions' => [
-                'footer' => 'Footer'
+                
             ],
             'sections' => [
                 'header' => 'Header',
@@ -489,35 +630,54 @@ return [
                 'offcanvas' => 'Offcanvas'
             ],
             'particles' => [
+                'logo' => [
+                    'logo-5738' => 'Logo'
+                ],
                 'menu' => [
-                    'menu-7498' => 'Menu'
+                    'menu-2241' => 'Menu'
                 ],
                 'sample' => [
-                    'sample-1' => 'Gantry 5',
-                    'sample-2' => 'Getting Started',
-                    'sample-3' => 'Key Features'
+                    'sample-1' => 'Header',
+                    'sample-3' => 'Key Features',
+                    'sample-2' => 'Getting Started'
                 ],
                 'messages' => [
                     'system-messages-9871' => 'System Messages'
                 ],
-                'position' => [
-                    'position-footer' => 'Footer'
+                'widget' => [
+                    'position-widget-3397' => 'ABOUT',
+                    'position-widget-5339' => 'EVENTS & SERVICES',
+                    'position-widget-1221' => 'RESOURCES',
+                    'position-widget-4368' => 'CONTACT'
                 ],
                 'copyright' => [
-                    'copyright-5636' => 'Copyright'
-                ],
-                'social' => [
-                    'social-7177' => 'Social'
+                    'copyright-5534' => 'Copyright'
                 ],
                 'branding' => [
-                    'branding-4767' => 'Branding'
+                    'branding-6435' => 'Branding'
+                ],
+                'social' => [
+                    'social-9066' => 'Social'
                 ],
                 'mobile-menu' => [
                     'mobile-menu-3057' => 'Mobile Menu'
                 ]
             ],
             'inherit' => [
-                
+                'default' => [
+                    'header' => 'header',
+                    'logo-5738' => 'logo-1568',
+                    'navigation' => 'navigation',
+                    'menu-2241' => 'menu-7498',
+                    'footer' => 'footer',
+                    'position-widget-3397' => 'position-widget-9065',
+                    'position-widget-5339' => 'position-widget-9818',
+                    'position-widget-1221' => 'position-widget-7280',
+                    'position-widget-4368' => 'position-widget-5324',
+                    'copyright-5534' => 'copyright-5636',
+                    'branding-6435' => 'branding-4767',
+                    'social-9066' => 'social-7177'
+                ]
             ]
         ],
         'layout' => [
@@ -532,9 +692,7 @@ return [
                     
                 ],
                 '/navigation/' => [
-                    0 => [
-                        0 => 'menu-7498'
-                    ]
+                    
                 ],
                 '/showcase/' => [
                     0 => [
@@ -546,26 +704,20 @@ return [
                 ],
                 '/main/' => [
                     0 => [
-                        0 => 'system-messages-9871'
+                        0 => 'sample-3'
                     ],
                     1 => [
                         0 => 'sample-2'
+                    ],
+                    2 => [
+                        0 => 'system-messages-9871'
                     ]
                 ],
                 '/subfeature/' => [
-                    0 => [
-                        0 => 'sample-3'
-                    ]
+                    
                 ],
                 '/footer/' => [
-                    0 => [
-                        0 => 'position-footer'
-                    ],
-                    1 => [
-                        0 => 'copyright-5636 33.3',
-                        1 => 'social-7177 33.3',
-                        2 => 'branding-4767 33.3'
-                    ]
+                    
                 ],
                 'offcanvas' => [
                     0 => [
@@ -576,13 +728,27 @@ return [
             'structure' => [
                 'header' => [
                     'attributes' => [
-                        'boxed' => ''
+                        'boxed' => '',
+                        'class' => ''
+                    ],
+                    'inherit' => [
+                        'outline' => 'default',
+                        'include' => [
+                            0 => 'children'
+                        ]
                     ]
                 ],
                 'navigation' => [
                     'type' => 'section',
                     'attributes' => [
-                        'boxed' => ''
+                        'boxed' => '',
+                        'class' => ''
+                    ],
+                    'inherit' => [
+                        'outline' => 'default',
+                        'include' => [
+                            0 => 'children'
+                        ]
                     ]
                 ],
                 'showcase' => [
@@ -603,27 +769,89 @@ return [
                     ]
                 ],
                 'subfeature' => [
+                    'type' => 'section',
                     'attributes' => [
                         'class' => 'flush',
                         'boxed' => ''
-                    ],
-                    'type' => 'section'
+                    ]
                 ],
                 'footer' => [
                     'attributes' => [
-                        'boxed' => ''
+                        'boxed' => '',
+                        'class' => ''
+                    ],
+                    'inherit' => [
+                        'outline' => 'default',
+                        'include' => [
+                            0 => 'children'
+                        ]
                     ]
                 ]
             ],
             'content' => [
                 'sample-1' => [
-                    'title' => 'Gantry 5',
+                    'title' => 'Header',
                     'attributes' => [
-                        'image' => 'gantry-assets://images/gantry5-logo.png',
+                        'image' => '',
                         'headline' => '',
-                        'description' => '<p>Gantry 5 is the most customizable and powerful version of the framework yet. Packed full of features such as <a href="http://docs.gantry.org/gantry5/configure/layout-manager">drag-and-drop layout creation</a> and the powerful particle system, Gantry 5 has been designed from the ground up to be lightning fast and hassle free.</p>',
-                        'link' => 'http://docs.gantry.org',
-                        'linktext' => 'Read More'
+                        'description' => '<p>The Canadian Federation of Engineering Students (CFES) is a national, bilingual organization that represents approximately 60,000 engineering students across Canada. Offering services ranging from leadership development conferences, to technical skill competitions, a national student magazine and other outreach efforts, the CFES aims to provide opportunities in support of an all-encompassing education for engineering students in Canada to become unparalleled professionals in their field.</p>',
+                        'link' => '/about',
+                        'linktext' => 'Read More',
+                        'samples' => [
+                            
+                        ]
+                    ]
+                ],
+                'sample-3' => [
+                    'title' => 'Key Features',
+                    'attributes' => [
+                        'image' => '',
+                        'headline' => '',
+                        'description' => '',
+                        'link' => '',
+                        'linktext' => '',
+                        'samples' => [
+                            0 => [
+                                'icon' => 'fa fa-users',
+                                'subtitle' => '',
+                                'description' => '<p>CFES is a student run words words words words words words words words words words words words words words</p>
+<br>
+<br>
+
+<a class="button" href="/about"> Read More</a>',
+                                'id' => '',
+                                'class' => '',
+                                'variations' => '',
+                                'title' => 'WHO WE ARE'
+                            ],
+                            1 => [
+                                'icon' => 'fa fa-gear',
+                                'subtitle' => '',
+                                'description' => '<p>words words words words words words words. words words words words words words words words words words words </p>
+<br>
+<br>
+<a class="button" href="/events-services">    Learn More </a>',
+                                'id' => '',
+                                'class' => '',
+                                'variations' => '',
+                                'title' => 'WHAT WE DO'
+                            ],
+                            2 => [
+                                'icon' => 'fa fa-lightbulb-o',
+                                'subtitle' => '',
+                                'description' => '<p>Words words words words words words words words words words words words words words words words words words words </p>
+<br>
+<br>
+<a class="button" href="/members"> Who We Represent </a>',
+                                'id' => '',
+                                'class' => '',
+                                'variations' => '',
+                                'title' => 'GET INVOLVED'
+                            ]
+                        ]
+                    ],
+                    'block' => [
+                        'class' => 'g-center-block'
                     ]
                 ],
                 'sample-2' => [
@@ -654,79 +882,6 @@ return [
 </div>
 
 <p>Once again, thank you for participating. We hope you enjoy testing Gantry 5 every bit as much as we have enjoyed creating it.</p>'
-                    ]
-                ],
-                'sample-3' => [
-                    'title' => 'Key Features',
-                    'attributes' => [
-                        'headline' => 'Key Features',
-                        'description' => '<p>Gantry 5 is packed full of features created to empower the development of designs into fully functional layouts with the absolute minimum effort and fuss</p>',
-                        'samples' => [
-                            0 => [
-                                'icon' => 'fa fa-code',
-                                'subtitle' => '',
-                                'description' => '<p>Gantry 5 leverages the power of <a href="http://twig.sensiolabs.org/">Twig</a> to make creating powerful, dynamic themes quick and easy.</p>',
-                                'title' => 'Twig Templating'
-                            ],
-                            1 => [
-                                'icon' => 'fa fa-newspaper-o',
-                                'subtitle' => '',
-                                'description' => '<p>Drag-and-drop functionality gives you the power to place content blocks, resize them, and configure their unique settings in seconds.</p>',
-                                'title' => 'Layout Manager'
-                            ],
-                            2 => [
-                                'icon' => 'fa fa-cubes',
-                                'subtitle' => '',
-                                'description' => '<p>Create, configure, and manage content blocks as well as special features and functionality with the powerful particle system.</p>',
-                                'title' => 'Particles System'
-                            ]
-                        ]
-                    ]
-                ],
-                'position-footer' => [
-                    'attributes' => [
-                        'key' => 'footer'
-                    ]
-                ],
-                'social-7177' => [
-                    'attributes' => [
-                        'css' => [
-                            'class' => 'social-items'
-                        ],
-                        'items' => [
-                            0 => [
-                                'icon' => 'fa fa-twitter',
-                                'text' => 'Twitter',
-                                'link' => 'http://twitter.com/rockettheme',
-                                'name' => 'Twitter'
-                            ],
-                            1 => [
-                                'icon' => 'fa fa-facebook',
-                                'text' => 'Facebook',
-                                'link' => 'http://facebook.com/rockettheme',
-                                'name' => 'Facebook'
-                            ],
-                            2 => [
-                                'icon' => 'fa fa-google',
-                                'text' => 'Google',
-                                'link' => 'http://plus.google.com/+rockettheme',
-                                'name' => 'Google'
-                            ],
-                            3 => [
-                                'icon' => 'fa fa-rss',
-                                'text' => 'RSS',
-                                'link' => 'http://www.rockettheme.com/product-updates?rss',
-                                'name' => 'RSS'
-                            ]
-                        ]
-                    ],
-                    'block' => [
-                        'variations' => 'center'
-                    ]
-                ],
-                'branding-4767' => [
-                    'block' => [
-                        'variations' => 'align-right'
                     ]
                 ],
                 'mobile-menu-3057' => [
