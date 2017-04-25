@@ -99,11 +99,10 @@ content:
       items:
         -
           image: 'gantry-media://header/img01.jpg'
-          title: 'Helium is here!'
-          desc: 'Begin your journey with a brand new &raquo;free&laquo; Gantry 5 template from RocketTheme.'
-          link: 'http://gantry.org/downloads'
-          linktext: 'Download Now'
-          buttonicon: 'fa fa-rocket'
+          title: 'Congress 2017, London Ontario'
+          desc: 'Hosted by Western University on January 2-7, 2017'
+          link: 'blog post -1'
+          linktext: 'Read More'
           buttonclass: button-outline
           name: 'Item 1'
         -
@@ -123,7 +122,7 @@ content:
   custom-3119:
     title: Features
     attributes:
-      html: "<div class=\"fp-features\">\n    <div class=\"g-grid\">\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <i class=\"fa fa-joomla\"></i>\n                    <h4 class=\"card-title\">Joomla</h4>\n                    <p class=\"card-text\">Bring your website to life with one of the most powerful and popular theming frameworks for Joomla.</p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <i class=\"fa fa-wordpress\"></i>\n                    <h4 class=\"card-title\">WordPress</h4>\n                    <p class=\"card-text\">Gantry extends WordPress' native functionality, empowering users to manipulate virtually every aspect of their visitors' experience.</p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <i class=\"fa fa-grav\"></i>\n                    <h4 class=\"card-title\">Grav</h4>\n                    <p class=\"card-text\">Gantry 5 is the first theming framework for Grav, designed by members of the same team that developed the CMS.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+      html: "<div class=\"fp-features\">\n    <div class=\"g-grid\">\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <i class=\"fa fa-joomla\"></i>\n                    <h4 class=\"card-title\">WHO WE ARE</h4>\n                    <p class=\"card-text\">CFES is a student run words words words words words words words words words words words words words words</p>\n<br><br><a class=\"g-owlcarousel-item-button button button-outline\" href=\"_self\">Read More</a>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <i class=\"fa fa-wordpress\"></i>\n                    <h4 class=\"card-title\">WHAT WE DO</h4>\n                    <p class=\"card-text\">CFES is a student run words words words words words words words words words words words words words words</p>\n<br><br><a class=\"g-owlcarousel-item-button button button-outline\" href=\"_self\">Read More</a>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <i class=\"fa fa-grav\"></i>\n                    <h4 class=\"card-title\">Get Involved</h4>\n                    <p class=\"card-text\">CFES is a student run words words words words words words words words words words words words words words</p>\n<br><br><a class=\"g-owlcarousel-item-button button button-outline\" href=\"_self\">See Who We Represent</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
     block:
       variations: center
   contenttabs-3854:

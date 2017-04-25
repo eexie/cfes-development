@@ -1,0 +1,11 @@
+enabled: '1'
+date:
+  start: now
+  end: now
+owner: 'Canadian Federation of Engineering Students'
+link: ''
+target: _blank
+additional:
+  text: 'Developed by Emma Xie using the Helium theme by RocketThemes'
+css:
+  class: ''
