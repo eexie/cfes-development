@@ -8,8 +8,8 @@ layout:
     -
       - logo-9608
     -
-      - 'menu-6409 85'
-      - 'social-3171 15'
+      - 'menu-6409 80'
+      - 'social-3171 20'
   /header/: {  }
   /intro/: {  }
   /features/: {  }
@@ -104,34 +104,14 @@ structure:
 content:
   logo-9608:
     title: 'Logo / Image'
-  menu-6409:
-    attributes:
-      menu: nav
-      base: /
-      startLevel: '1'
-      maxLevels: '2'
-      hoverExpand: '1'
-      mobileTarget: '1'
+    block:
+      extra:
+        -
+          style: "background-color: #005ea4; \tpadding: 1rem 0;"
   social-3171:
-    attributes:
-      items:
-        -
-          icon: 'fa fa-facebook fa-fw'
-          text: ''
-          link: 'http://www.facebook.com/RocketTheme'
-          name: Facebook
-        -
-          icon: 'fa fa-google-plus fa-fw'
-          text: ''
-          link: 'https://plus.google.com/+rockettheme'
-          name: Google+
-        -
-          icon: ''
-          text: Fr
-          link: fceg.ca
-          name: Fr
     block:
       class: g-social-header
+      variations: center
   position-position-4734:
     title: Aside
     attributes:
@@ -144,16 +124,20 @@ content:
     title: ABOUT
     attributes:
       widget: '{"type":"widget","widget":"nav_menu","title":"Custom Menu","options":{"widget":{"title":"ABOUT","nav_menu":3}}}'
+      key: about
   position-widget-1245:
     title: 'events & services'
     attributes:
       widget: '{"type":"widget","widget":"nav_menu","title":"Custom Menu","options":{"widget":{"title":"EVENTS & SERVICES","nav_menu":4}}}'
+      key: 'events-&-services'
   position-widget-2815:
     title: Resources
     attributes:
       widget: '{"type":"widget","widget":"nav_menu","title":"Custom Menu","options":{"widget":{"title":"RESOURCES","nav_menu":5}}}'
+      key: resources
   position-widget-1915:
     attributes:
       widget: '{"type":"widget","widget":"nav_menu","title":"Custom Menu","options":{"widget":{"title":"CONTACT","nav_menu":6}}}'
+      key: widget
   totop-8670:
     title: 'To Top'

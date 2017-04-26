@@ -10,7 +10,7 @@ font:
   family-title: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
 link:
   regular: '#045ea4'
-  hover: '#fef385'
+  hover: '#bdbdbd'
 navigation:
   background: '#f0f0f0'
   text-color: '#424753'
@@ -45,7 +45,7 @@ footer:
 offcanvas:
   background: '#045ea4'
   text-color: '#eceeef'
-  toggle-color: '#045ea4'
+  toggle-color: '#eceeef'
   toggle-visibility: '1'
   width: 20rem
 breakpoints:

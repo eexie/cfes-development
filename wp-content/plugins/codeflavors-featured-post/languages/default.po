@@ -1,0 +1,321 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-01-26 09:56+0200\n"
+"PO-Revision-Date: 2016-01-26 09:56+0200\n"
+"Last-Translator: Constantin Boiangiu <constantin.b@gmail.com>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;_nx_noop\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../assets/admin/js/tinymce/featured_post/langs/langs.php:11
+#: ../assets/admin/js/tinymce/featured_post/langs/langs.php:13
+msgid "Insert new featured post"
+msgstr ""
+
+#: ../assets/admin/js/tinymce/featured_post/langs/langs.php:14
+msgid "Edit featured post properties"
+msgstr ""
+
+#: ../assets/admin/js/tinymce/featured_post/langs/langs.php:16
+msgid "Category/Term (optional)"
+msgstr ""
+
+#: ../assets/admin/js/tinymce/featured_post/langs/langs.php:17
+msgid "Taxonomy name (optional)"
+msgstr ""
+
+#: ../assets/admin/js/tinymce/featured_post/langs/langs.php:18
+#: ../includes/compatibility.php:31
+#: ../includes/libs/class-cfp-featured-post-widget.php:82
+msgid "Post type"
+msgstr ""
+
+#: ../assets/admin/js/tinymce/featured_post/langs/langs.php:19
+msgid "Post ID (if set, will override all other options)"
+msgstr ""
+
+#: ../assets/admin/js/tinymce/featured_post/langs/langs.php:20
+#: ../includes/compatibility.php:57
+#: ../includes/libs/class-cfp-featured-post-widget.php:116
+msgid "Number of posts"
+msgstr ""
+
+#: ../assets/admin/js/tinymce/featured_post/langs/langs.php:21
+#: ../includes/compatibility.php:66
+msgid "Post offset"
+msgstr ""
+
+#: ../assets/admin/js/tinymce/featured_post/langs/langs.php:22
+#: ../includes/compatibility.php:83
+#: ../includes/libs/class-cfp-featured-post-widget.php:128
+msgid "Template"
+msgstr ""
+
+#: ../assets/admin/js/tinymce/featured_post/langs/langs.php:25
+msgid "Close"
+msgstr ""
+
+#: ../assets/admin/js/tinymce/featured_post/langs/langs.php:46
+msgid "No taxonomy"
+msgstr ""
+
+#: ../includes/admin/functions.php:133
+msgid "No options"
+msgstr ""
+
+#: ../includes/admin/functions.php:134
+msgid "Choose"
+msgstr ""
+
+#: ../includes/admin/libs/class-cfp-admin.php:114
+#: ../includes/compatibility.php:19
+#: ../includes/libs/class-cfp-featured-post-widget.php:32
+#: ../views/about.page.php:8 ../views/plugin_options.template.php:2
+msgid "CodeFlavors Featured Post"
+msgstr ""
+
+#: ../includes/admin/libs/class-cfp-admin.php:115
+msgid "Featured Post by CodeFlavors"
+msgstr ""
+
+#: ../includes/admin/libs/class-cfp-admin.php:123
+#: ../includes/admin/libs/class-cfp-admin.php:124
+msgid "About CodeFlavors Featured Post"
+msgstr ""
+
+#: ../includes/admin/libs/class-cfp-admin.php:174
+msgid "Options"
+msgstr ""
+
+#: ../includes/compatibility.php:20
+msgid "Feature any post type."
+msgstr ""
+
+#: ../includes/compatibility.php:24
+msgid "Content"
+msgstr ""
+
+#: ../includes/compatibility.php:40
+msgid "Taxonomy name"
+msgstr ""
+
+#: ../includes/compatibility.php:49
+#: ../includes/libs/class-cfp-featured-post-widget.php:112
+msgid "Category/Term"
+msgstr ""
+
+#: ../includes/compatibility.php:51
+msgid "Enter category/term name or ID"
+msgstr ""
+
+#: ../includes/compatibility.php:60
+msgid "Number of posts to retrieve"
+msgstr ""
+
+#: ../includes/compatibility.php:68
+msgid ""
+"Skip posts (ie. to retrieve starting with the second post, set the offset to "
+"1)"
+msgstr ""
+
+#: ../includes/compatibility.php:75
+msgid "Post ID"
+msgstr ""
+
+#: ../includes/compatibility.php:77
+msgid ""
+"When set, will override all other parameters and return the post having this "
+"ID."
+msgstr ""
+
+#: ../includes/compatibility.php:86
+msgid "Select one of the available templates to display the featured post."
+msgstr ""
+
+#: ../includes/functions.php:61
+msgid "Default template"
+msgstr ""
+
+#: ../includes/functions.php:68
+msgid "Fancy"
+msgstr ""
+
+#: ../includes/functions.php:223
+#, php-format
+msgid "%s comment"
+msgstr ""
+
+#: ../includes/libs/class-cfp-featured-post-widget.php:24
+msgid "Add a CodeFlavors Featured Post widget"
+msgstr ""
+
+#: ../includes/libs/class-cfp-featured-post-widget.php:78
+msgid "Widget title"
+msgstr ""
+
+#: ../includes/libs/class-cfp-featured-post-widget.php:97
+msgid "Taxonomy"
+msgstr ""
+
+#: ../includes/libs/class-cfp-featured-post-widget.php:106
+msgid "None selected"
+msgstr ""
+
+#: ../includes/libs/class-cfp-featured-post-widget.php:120
+msgid "Posts offset"
+msgstr ""
+
+#: ../includes/libs/class-cfp-featured-post-widget.php:124
+msgid "Post ID (will override all other options)"
+msgstr ""
+
+#: ../includes/libs/class-cfp-shortcodes.php:40
+msgid "The category/taxonomy ID to retrieve the latest post from."
+msgstr ""
+
+#: ../includes/libs/class-cfp-shortcodes.php:44
+msgid ""
+"The taxonomy name, if retrieving from anything else other than regular "
+"categories."
+msgstr ""
+
+#: ../includes/libs/class-cfp-shortcodes.php:49
+msgid ""
+"The post type that should be retrieved from the given taxonomy. Not required "
+"when featuring regular posts."
+msgstr ""
+
+#: ../includes/libs/class-cfp-shortcodes.php:53
+msgid "The number of posts to retrieve."
+msgstr ""
+
+#: ../includes/libs/class-cfp-shortcodes.php:57
+msgid ""
+"First row to return (ie. a value of 1 means it will return starting with the "
+"second most recent post)."
+msgstr ""
+
+#: ../includes/libs/class-cfp-shortcodes.php:61
+msgid ""
+"A post ID. This will retrieve the exact post ID and will override all other "
+"parameters if set."
+msgstr ""
+
+#: ../includes/libs/class-cfp-shortcodes.php:65
+msgid "The featured post template to use when displaying a post."
+msgstr ""
+
+#: ../includes/libs/class-cfp-shortcodes.php:110
+msgid "Posts number must be greater than 0. No featured posts displayed."
+msgstr ""
+
+#: ../includes/libs/class-cfp-shortcodes.php:137
+msgid ""
+"There were no posts matching your criteria. Please review the shortcode or "
+"widget attributes."
+msgstr ""
+
+#: ../includes/libs/class-cfp-shortcodes.php:160
+#, php-format
+msgid "The template %s couldn't be found."
+msgstr ""
+
+#: ../includes/libs/class-cfp-shortcodes.php:193
+msgid "CodeFlavors Featured Post error"
+msgstr ""
+
+#: ../views/about.page.php:9
+msgid ""
+"Thank you for using CodeFlavors Featured Post, the plugin that gives you the "
+"easiest way to showcase featured posts."
+msgstr ""
+
+#: ../views/about.page.php:10
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: ../views/about.page.php:12 ../views/about.page.php:42
+msgid "Plugin options"
+msgstr ""
+
+#: ../views/about.page.php:13
+msgid "Docs & Tuts"
+msgstr ""
+
+#: ../views/about.page.php:17
+msgid "Features"
+msgstr ""
+
+#: ../views/about.page.php:21
+msgid "Feature any post type"
+msgstr ""
+
+#: ../views/about.page.php:22
+msgid "You can choose to feature any publicly registered post type available."
+msgstr ""
+
+#: ../views/about.page.php:24
+msgid "Create your own templates"
+msgstr ""
+
+#: ../views/about.page.php:25
+msgid ""
+"By default, the plugin comes with only two templates: Default and Fancy. If "
+"none of the two themes apply to your project, you can easily create your own "
+"theme that you can use to feature posts on your website."
+msgstr ""
+
+#: ../views/about.page.php:27
+msgid "Highly compatible"
+msgstr ""
+
+#: ../views/about.page.php:28
+msgid ""
+"The plugin is compatible out-of-the-box with Visual Composer plugin and also "
+"with any WordPress theme."
+msgstr ""
+
+#: ../views/about.page.php:32
+msgid "Shortcode and widget"
+msgstr ""
+
+#: ../views/about.page.php:33
+msgid ""
+"You can feature posts by both using the shortcode that the plugin implements "
+"or by using the widget added by the plugin."
+msgstr ""
+
+#: ../views/about.page.php:35
+msgid "Plenty of options"
+msgstr ""
+
+#: ../views/about.page.php:36
+msgid ""
+"Featured posts can be selected by ID or as the latest posts from any given "
+"category or post type. You can even skip some posts, it's all up to you!"
+msgstr ""
+
+#: ../views/plugin_options.template.php:5
+msgid ""
+"Below you can find a brief description of the shortcode implemented by the "
+"plugin."
+msgstr ""
+
+#: ../views/plugin_options.template.php:6
+#, php-format
+msgid ""
+"For more information about this plugin, please see the %sdocumentation%s."
+msgstr ""
+
+#: ../views/plugin_options.template.php:19
+msgid "default"
+msgstr ""

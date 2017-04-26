@@ -6,17 +6,17 @@ target: _blank
 display: both
 items:
   -
-    icon: 'fa fa-twitter fa-fw'
-    text: ''
-    link: 'http://www.twitter.com/rockettheme'
-    name: Twitter
-  -
     icon: 'fa fa-facebook fa-fw'
     text: ''
-    link: 'http://www.facebook.com/RocketTheme'
+    link: 'http://www.facebook.com/cfes.fceg'
     name: Facebook
   -
-    icon: 'fa fa-google-plus fa-fw'
+    icon: 'fa fa-flickr fa-fw'
     text: ''
-    link: 'https://plus.google.com/+rockettheme'
-    name: Google+
+    link: 'https://www.flickr.com/photos/147682432@N05/'
+    name: Flickr
+  -
+    icon: ''
+    text: Français
+    link: fceg.ca
+    name: FR
