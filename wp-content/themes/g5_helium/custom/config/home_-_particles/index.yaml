@@ -1,5 +1,5 @@
 name: home_-_particles
-timestamp: 1493171373
+timestamp: 1493225759
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -31,15 +31,17 @@ particles:
   custom:
     custom-5807: 'Mission Statement'
     custom-3119: 'Main points'
-    custom-2396: 'Custom HTML'
+    custom-2396: stats
     custom-7658: 'Customer Testimonials (hidden)'
     custom-6355: 'Develop CMS themes quickly'
+    custom-5349: 'Custom HTML'
+    custom-7568: 'Custom HTML'
   contenttabs:
     contenttabs-3854: 'Content Tabs (hidden)'
   contentcubes:
     contentcubes-7850: 'Content Cubes'
   widget:
-    position-widget-6596: Widget
+    position-widget-8277: Widget
     position-widget-9437: ABOUT
     position-widget-3181: 'events & services'
     position-widget-4239: Resources
