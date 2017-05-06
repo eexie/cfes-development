@@ -1,5 +1,5 @@
-name: default
-timestamp: 1494043856
+name: partners
+timestamp: 1494043174
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -25,22 +25,20 @@ sections:
 particles:
   logo:
     logo-9608: 'Logo / Image'
+    logo-9571: 'Logo / Image'
   menu:
     menu-6409: Menu
   social:
     social-3171: Social
-  content:
-    system-content-1587: 'Page Content'
   position:
     position-position-4734: Aside
     position-position-3949: Sidebar
-  widget:
-    position-widget-5932: ABOUT
-    position-widget-1245: 'events & services'
-    position-widget-2815: Resources
-    position-widget-1915: Widget
+  content:
+    system-content-1587: 'Page Content'
   copyright:
     copyright-1736: Copyright
+  horizontalmenu:
+    horizontalmenu-9034: 'Horizontal Menu'
   totop:
     totop-8670: 'To Top'
   mobile-menu:

@@ -6,6 +6,6 @@ owner: 'Canadian Federation of Engineering Students'
 link: ''
 target: _blank
 additional:
-  text: 'Developed by <a href="http://eexie.github.io/" target="_none"><u>Emma Xie</u></a> using the <a href="http://demo.gantry.org/" target="_none"><u> Helium theme </u></a>by RocketThemes'
+  text: 'Developed by <a href="http://eexie.github.io/" target="_none"><u>Emma Xie</u></a> using the <a href="http://gantry.org/" target="_none"><u> Gantry Framework </u></a>by RocketThemes'
 css:
   class: ''

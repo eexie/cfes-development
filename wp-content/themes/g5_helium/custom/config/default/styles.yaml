@@ -51,7 +51,7 @@ offcanvas:
 breakpoints:
   large-desktop-container: 75rem
   desktop-container: 60rem
-  tablet-container: 48rem
+  tablet-container: 50rem
   large-mobile-container: 30rem
   mobile-menu-breakpoint: 48rem
 menu:

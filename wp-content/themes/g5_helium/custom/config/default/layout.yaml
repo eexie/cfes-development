@@ -20,15 +20,15 @@ layout:
   /container-main/:
     -
       -
-        'aside 25':
-          -
-            - position-position-4734
-      -
-        'mainbar 50':
+        'aside 75':
           -
             - system-content-1587
       -
-        'sidebar 25':
+        'mainbar 20':
+          -
+            - position-position-4734
+      -
+        'sidebar 5':
           -
             - position-position-3949
   /footer/:
@@ -91,7 +91,9 @@ structure:
     attributes:
       class: ''
     block:
-      fixed: '1'
+      extra:
+        -
+          style: 'display:none;'
   container-main:
     attributes:
       boxed: ''

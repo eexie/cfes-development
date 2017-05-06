@@ -106,16 +106,19 @@ function cfp_output_template_fancy( $post, $terms, $image, $image_url ){
     
     $output = <<<HTML
 <div class="{$class}">
-    <a href="{$permalink}" title="{$title}">{$image}</a>
-    <div class="cf-overlay">
-        <div class="cf-inside">
-            <h2><a href="{$permalink}" title="{$title}">{$title}</a></h2>
-            <p>{$post->post_excerpt}</p>            
-        </div><!-- .cf-inside -->
-        <div class="category">
-            {$categories}
-        </div>
-    </div><!-- .cf-overlay -->
+    <a href="{$permalink}">
+	{$image}
+    	<div class="cf-overlay">
+		<div class="category">
+	            {$categories}
+        	</div>
+        	<div class="cf-inside">
+	            <h2><a href="{$permalink}">{$title}</a></h2>
+        	    <p>{$post->post_excerpt}</p>            
+	        </div><!-- .cf-inside -->
+        	
+	</div><!-- .cf-overlay -->
+    </a>
 </div><!--end featured post-->
 HTML;
     
@@ -147,41 +150,45 @@ function cfp_template_fancy_styles(){
         bottom:0px;
         left:0px;
         width:100%;
-        max-height:100%;    	
+        max-height:100%;    
     }
         .codeflavors-featured-post.theme-fancy .cf-overlay .cf-inside{
             display:block;
         	position:relative;
         	padding:.5em 2em;
-        	text-align:center;
-        	color:#FFF;
-        	background-color:rgba(0,0,0,0.5);
+		margin:2em;
+		margin-top:0;
+		background-color:rgba(255,255,255,0.9);
+        	/*background-color:rgba(0,0,0,0.5);*/
         } 
-        .codeflavors-featured-post.theme-fancy.no-image .cf-overlay .cf-inside{
-        	background:#000;
+        .codeflavors-featured-post.theme-fancy.no-image {
+        	background:#CCCCCC;
+		padding:5.5em;
         }
         
             .codeflavors-featured-post.theme-fancy .cf-overlay .cf-inside h2{
                 padding:0px 0px .5em;
             	margin:.5em 0px .5em;
-            	border-bottom:1px #FFF solid;
+            	border-bottom:1px #BBBBBB solid;
             	font-size:1.2em;
             }
                 .codeflavors-featured-post.theme-fancy .cf-overlay .cf-inside h2 a{
 	               text-decoration:none;
-                   color:#FFF; 
                    border:none;
                 }
             .codeflavors-featured-post.theme-fancy .cf-overlay .cf-inside p{
                 margin:0px;
             	padding:0px;
+		overflow: hidden;
             }
             .codeflavors-featured-post.theme-fancy .cf-overlay .category{
-                background:#000;
-            	text-align:center;
+                background:#045ea4;
+            	text-align:left;
             	color:#FFF;
             	text-transform:uppercase;
-            	padding:.6em 0 .6em;
+		display: inline-block;
+            	padding:0.25em 0.75em;
+		margin-left:2em;
             }
                 .codeflavors-featured-post.theme-fancy .cf-overlay .category a{
 	                color:#FFF;

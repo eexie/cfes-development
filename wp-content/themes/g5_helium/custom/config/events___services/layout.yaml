@@ -1,0 +1,120 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1493084029
+layout:
+  navigation: {  }
+  /header/: {  }
+  /intro/: {  }
+  /features/:
+    -
+      - custom-1692
+  /utility/: {  }
+  /above/: {  }
+  /testimonials/: {  }
+  expanded: {  }
+  /container-main/:
+    -
+      -
+        'mainbar 75': {  }
+      -
+        'sidebar 25': {  }
+  footer: {  }
+  offcanvas: {  }
+structure:
+  navigation:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  header:
+    attributes:
+      boxed: ''
+      class: g-flushed
+      extra:
+        -
+          style: 'max-height:600px;'
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+      class: nopaddingall
+  features:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      extra:
+        -
+          style: 'padding:1.5rem 0;'
+  above:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      extra:
+        -
+          style: 'display:none;'
+  expanded:
+    type: section
+    inherit:
+      outline: home_-_particles
+      include:
+        - attributes
+        - block
+        - children
+  mainbar:
+    type: section
+    subtype: main
+    inherit:
+      outline: home_-_particles
+      include:
+        - attributes
+        - block
+        - children
+  sidebar:
+    type: section
+    subtype: aside
+    inherit:
+      outline: home_-_particles
+      include:
+        - attributes
+        - block
+        - children
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+content:
+  custom-1692:
+    title: 'Mission Statement'
+    inherit:
+      outline: home_-_particles
+      include:
+        - attributes
+        - block
+      particle: custom-5807
