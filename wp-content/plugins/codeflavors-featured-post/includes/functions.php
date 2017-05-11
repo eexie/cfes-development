@@ -180,6 +180,7 @@ function cfp_template_fancy_styles(){
                 margin:0px;
             	padding:0px;
 		overflow: hidden;
+		line-height:1.25;
             }
             .codeflavors-featured-post.theme-fancy .cf-overlay .category{
                 background:#045ea4;

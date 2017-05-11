@@ -11,7 +11,7 @@ post:
       format: 'l, F d, Y'
     read_more:
       enabled: show
-      label: ''
+      label: 'Read More'
       css: ''
     author:
       enabled: show

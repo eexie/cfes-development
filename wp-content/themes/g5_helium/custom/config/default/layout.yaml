@@ -8,8 +8,8 @@ layout:
     -
       - logo-9608
     -
-      - 'menu-6409 80'
-      - 'social-3171 20'
+      - 'menu-6409 82'
+      - 'social-3171 18'
   /header/: {  }
   /intro/: {  }
   /features/: {  }

@@ -1,5 +1,5 @@
 name: events___services
-timestamp: 1494044229
+timestamp: 1494462749
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -26,6 +26,12 @@ particles:
     menu-6681: Menu
   social:
     social-5670: Social
+  widget:
+    position-widget-8708: 'PM Countdown'
+    position-widget-5039: ABOUT
+    position-widget-9483: 'events & services'
+    position-widget-5584: Resources
+    position-widget-1600: Widget
   custom:
     custom-1692: 'Mission Statement'
     custom-3038: Congress
@@ -36,11 +42,6 @@ particles:
     custom-6522: CDE
     custom-5232: PM
     custom-4691: BEST
-  widget:
-    position-widget-5039: ABOUT
-    position-widget-9483: 'events & services'
-    position-widget-5584: Resources
-    position-widget-1600: Widget
   copyright:
     copyright-2982: Copyright
   totop:

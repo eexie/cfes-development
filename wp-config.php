@@ -78,6 +78,14 @@ $table_prefix  = 'wp_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define('WP_DEBUG', false);
+/* Multisite */
+define( 'WP_ALLOW_MULTISITE', true );
+define('MULTISITE', true);
+define('SUBDOMAIN_INSTALL', false);
+define('DOMAIN_CURRENT_SITE', 'localhost');
+define('PATH_CURRENT_SITE', '/');
+define('SITE_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);
 
 /* That's all, stop editing! Happy blogging. */
 
@@ -85,5 +93,6 @@ define('WP_DEBUG', false);
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 
+define( 'SUNRISE', 'on' );
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');

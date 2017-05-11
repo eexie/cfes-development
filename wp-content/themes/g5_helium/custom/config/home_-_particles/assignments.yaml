@@ -1,3 +1,7 @@
-context:
-  -
-    is_front_page: true
+context: {  }
+menu: {  }
+post:
+  page:
+    280: true
+taxonomy: {  }
+archive: {  }

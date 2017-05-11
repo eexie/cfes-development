@@ -1,5 +1,5 @@
 name: about
-timestamp: 1494043856
+timestamp: 1494463372
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -20,6 +20,12 @@ sections:
   footer: Footer
   offcanvas: Offcanvas
 particles:
+  logo:
+    logo-5969: 'Logo / Image'
+  menu:
+    menu-8519: Menu
+  social:
+    social-3165: Social
   owlcarousel:
     owlcarousel-2455: 'Owl Carousel'
   custom:
@@ -29,12 +35,6 @@ particles:
     custom-3719: 'Custom HTML'
   contenttabs:
     contenttabs-3854: History
-  logo:
-    logo-5969: 'Logo / Image'
-  menu:
-    menu-8519: Menu
-  social:
-    social-3165: Social
   widget:
     position-widget-2169: ABOUT
     position-widget-3033: 'events & services'
@@ -49,15 +49,15 @@ particles:
 inherit:
   default:
     navigation: navigation
-    footer: footer
-    offcanvas: offcanvas
     logo-5969: logo-9608
     menu-8519: menu-6409
     social-3165: social-3171
+    footer: footer
     position-widget-2169: position-widget-5932
     position-widget-3033: position-widget-1245
     position-widget-9885: position-widget-2815
     position-widget-7485: position-widget-1915
     copyright-4429: copyright-1736
     totop-9547: totop-8670
+    offcanvas: offcanvas
     mobile-menu-5841: mobile-menu-5697

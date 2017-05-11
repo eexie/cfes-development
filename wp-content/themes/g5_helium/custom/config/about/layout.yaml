@@ -46,7 +46,7 @@ structure:
       class: g-flushed
       extra:
         -
-          style: 'max-height:500px;'
+          style: 'max-height:600px;'
   intro:
     type: section
     attributes:
