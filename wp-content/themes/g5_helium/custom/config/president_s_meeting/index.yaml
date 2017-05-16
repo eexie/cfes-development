@@ -1,0 +1,73 @@
+name: president_s_meeting
+timestamp: 1494951805
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1493084029
+positions: {  }
+sections:
+  navigation: Navigation
+  intro: Intro
+  features: Features
+  utility: Utility
+  above: Above
+  testimonials: Testimonials
+  expanded: Expanded
+  header: Header
+  mainbar: Mainbar
+  sidebar: Sidebar
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  owlcarousel:
+    owlcarousel-8719: 'Owl Carousel'
+  custom:
+    custom-2030: 'Current Year Host Info'
+    custom-5061: Intro
+    custom-7157: 'Past hosts'
+    custom-3249: stats
+    custom-3367: 'Custom HTML'
+  widget:
+    position-widget-9788: Widget
+    position-widget-6358: ABOUT
+    position-widget-9868: 'events & services'
+    position-widget-6434: Resources
+    position-widget-9939: Widget
+  logo:
+    logo-9297: 'Logo / Image'
+  menu:
+    menu-9787: Menu
+  social:
+    social-8858: Social
+  copyright:
+    copyright-6912: Copyright
+  totop:
+    totop-6203: 'To Top'
+  mobile-menu:
+    mobile-menu-6152: Mobile-menu
+inherit:
+  default:
+    navigation: navigation
+    footer: footer
+    offcanvas: offcanvas
+    logo-9297: logo-9608
+    menu-9787: menu-6409
+    social-8858: social-3171
+    position-widget-6358: position-widget-5932
+    position-widget-9868: position-widget-1245
+    position-widget-6434: position-widget-2815
+    position-widget-9939: position-widget-1915
+    copyright-6912: copyright-1736
+    totop-6203: totop-8670
+    mobile-menu-6152: mobile-menu-5697
+  about:
+    utility: utility
+    mainbar: mainbar
+    sidebar: sidebar
+    custom-3249: custom-2396
+  canadian_engineering_competition:
+    above: above
+  congress:
+    testimonials: testimonials
+    custom-3367: custom-8079

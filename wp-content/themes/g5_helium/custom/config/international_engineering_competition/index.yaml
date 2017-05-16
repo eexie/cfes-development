@@ -1,0 +1,98 @@
+name: international_engineering_competition
+timestamp: 1494951805
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1493084029
+positions: {  }
+sections:
+  navigation: Navigation
+  intro: Intro
+  features: Features
+  utility: Utility
+  above: Above
+  testimonials: Testimonials
+  expanded: Expanded
+  header: Header
+  mainbar: Mainbar
+  sidebar: Sidebar
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  owlcarousel:
+    owlcarousel-5766: 'Owl Carousel'
+  horizontalmenu:
+    horizontalmenu-8428: 'Horizontal Menu'
+    horizontalmenu-5462: 'Horizontal Menu'
+  logo:
+    logo-7151: 'Logo / Image'
+    logo-9007: 'Logo / Image'
+  custom:
+    custom-8315: Intro
+    custom-9426: 'Custom HTML'
+    custom-1806: 'Competition Categories Title'
+    custom-3445: 'Junior Design'
+    custom-4513: 'Senior Design'
+    custom-3002: 'Innovative Design'
+    custom-1909: Communications
+    custom-3590: Consulting
+    custom-9733: RE-ENGINEERING
+    custom-9419: 'Custom HTML'
+    custom-3429: DEBATE
+    custom-9340: 'Custom HTML'
+    custom-7274: 'Past hosts'
+    custom-1903: 'Current Year Host Info'
+    custom-9158: stats
+  menu:
+    menu-4333: Menu
+  social:
+    social-4990: Social
+  widget:
+    position-widget-6534: ABOUT
+    position-widget-1046: 'events & services'
+    position-widget-1762: Resources
+    position-widget-2876: Widget
+    position-widget-4626: Widget
+  copyright:
+    copyright-9344: Copyright
+  totop:
+    totop-6889: 'To Top'
+  mobile-menu:
+    mobile-menu-2604: Mobile-menu
+inherit:
+  default:
+    navigation: navigation
+    footer: footer
+    offcanvas: offcanvas
+    logo-9007: logo-9608
+    menu-4333: menu-6409
+    social-4990: social-3171
+    position-widget-6534: position-widget-5932
+    position-widget-1046: position-widget-1245
+    position-widget-1762: position-widget-2815
+    position-widget-2876: position-widget-1915
+    copyright-9344: copyright-1736
+    totop-6889: totop-8670
+    mobile-menu-2604: mobile-menu-5697
+  canadian_engineering_competition:
+    intro: intro
+    above: above
+    custom-1806: custom-2622
+    custom-3445: custom-3574
+    custom-4513: custom-9055
+    custom-3002: custom-4987
+    custom-1909: custom-8008
+    custom-3590: custom-6664
+    custom-9733: custom-9139
+    custom-9419: custom-4040
+    custom-3429: custom-9081
+    custom-9340: custom-3043
+    custom-7274: custom-1384
+    custom-1903: custom-5313
+    position-widget-4626: position-widget-8009
+  about:
+    utility: utility
+    mainbar: mainbar
+    sidebar: sidebar
+    custom-9158: custom-2396

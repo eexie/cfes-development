@@ -1,0 +1,172 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1493084029
+layout:
+  navigation: {  }
+  /header/:
+    -
+      - owlcarousel-1773
+  /intro/:
+    -
+      - custom-5132
+    -
+      - position-widget-1440
+  /features/:
+    -
+      - custom-2267
+  utility: {  }
+  above: {  }
+  /testimonials/:
+    -
+      - custom-5763
+  /expanded/:
+    -
+      - custom-4867
+  /container-main/:
+    -
+      -
+        'mainbar 75': {  }
+      -
+        'sidebar 25': {  }
+  footer: {  }
+  offcanvas: {  }
+structure:
+  navigation:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  header:
+    attributes:
+      boxed: ''
+      class: g-flushed
+      extra:
+        -
+          style: 'max-height:580px;'
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      extra:
+        -
+          style: 'padding: 1.5em 0;'
+  features:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  utility:
+    type: section
+    inherit:
+      outline: about
+      include:
+        - attributes
+        - block
+        - children
+  above:
+    type: section
+    inherit:
+      outline: canadian_engineering_competition
+      include:
+        - attributes
+        - block
+        - children
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      extra:
+        -
+          style: 'background-color:#f0f0f0;'
+  mainbar:
+    type: section
+    subtype: main
+    inherit:
+      outline: about
+      include:
+        - attributes
+        - block
+        - children
+  sidebar:
+    type: section
+    subtype: aside
+    inherit:
+      outline: about
+      include:
+        - attributes
+        - block
+        - children
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+content:
+  owlcarousel-1773:
+    title: 'Owl Carousel'
+    attributes:
+      nav: disable
+      items:
+        -
+          image: 'gantry-media://15272006_1803552986579400_4222247238728428117_o.jpg'
+          title: 'Conference on Diversity in Engineering'
+          desc: 'CDE aims to develop knowledge surrounding the variety of individuals, cultures and perspectives found within engineering communities. '
+          link: ''
+          linktext: ''
+          buttonclass: ''
+          name: 'Item 1'
+  custom-5132:
+    title: 'Current Year Host Info'
+    attributes:
+      html: "<div class=\"fp-intro\">\n<h4><strong>CDE 2017 will be held at McMaster University on November 17-19</strong></h4>\n<p id=\"mission-vision\">The theme is <strong>\"[THEME]\"</strong>, chosen to _______</p>\n<a class=\"button button-outline\" href=\"http://cde.cfes.ca/\" target=\"_none\">VIST WEBSITE</a>\n</div>"
+    block:
+      variations: center
+  position-widget-1440:
+    attributes:
+      widget: '{"type":"widget","widget":"shailan-countdown-widget","title":"CEC Countdown","options":{"widget":{"title":"","event":"","direction":"down","date":"17-11-2018","hour":"16","minutes":"00","seconds":"00","format":"dHMS","timezone":"-5","color":"#000000","bgcolor":"","width":"","radius":"","link":"1","day":"17","month":"11","year":"2018"}}}'
+      key: widget
+    block:
+      extra:
+        -
+          style: 'padding:0px 0 30px 0; background-color:#fff;outline:2px solid #fff383;outline-offset: -20px;margin-top:2.5rem;'
+  custom-2267:
+    title: Intro
+    attributes:
+      html: "<div class=\"fp-intro\">\n<p>TThe CFES is proud to offer the Conference on Diversity in Engineering (CDE) as a valuable service to its members. Previously known as the National Conference on Women in Engineering (NCWIE), CDE aims to develop knowledge surrounding the variety of individuals, cultures and perspectives found within engineering communities. CDE further aims to instill a notion of positivity and togetherness in creating spaces that value the differences between groups of engineering students and professionals. \n<br><br>\nDelegates will not only leave the conference with a solid understanding of the issues minorities encounter in the engineering profession, but they will also be equipped to appropriately address these issues to create a more inclusive and thriving community. Students attending CDE will have the opportunity to meet and hear from successful, interesting, and talented speakers prepared to share their experience and knowledge on how to embrace diversity in order to better address the complex, interdisciplinary problems of society. \n<br><br>\nThe mission of the CFES is to support growth and communication, and to ensure moral, intellectual, cultural, academic, social, and economic well-being for its members. CDE supports our mission by creating networking opportunities and providing a better understanding of the issues pertaining to diversity in engineering, all while inspiring leadership and active participation in all facets of engineering education.</p>\n<p id=\"mission-vision\"></p> \n</div>"
+      twig: '0'
+      filter: '0'
+  custom-5763:
+    title: 'Custom HTML'
+    attributes:
+      html: "<div class=\"fp-testimonials\">\n    <blockquote>\n        <p class=\"h3\">\"Building Momentum to Change”\n</p>\n        <footer> McGill University, 2016</footer>\n    </blockquote>\n</div>"
+    block:
+      variations: center
+  custom-4867:
+    title: 'Past hosts'
+    attributes:
+      html: "<br><h2 class=\"g-title\">Past Hosts</h2>\n<table>\n  <tr>\n    <th>Year</th>\n    <th>Host</th>\n    <th>Location</th>\n    <th>Date</th>\n    <th>Media</th>\n  </tr>\n  <tr>\n    <td>2018</td>\n    <td>Ryerson University</td>\n    <td>Toronto, Ontario</td>\n    <td>November 16-18</td>\n  </tr>\n  <tr>\n    <td>2017</td>\n    <td>McMaster University</td>\n    <td>Hamilton, Ontario</td>\n    <td>November 17-19</td>\n  </tr>\n  <tr>\n    <td>2016</td>\n    <td>McGill University</td>\n    <td>Montréal, QC</td>\n    <td>November 18-20</td>\n    <td><a href=\"https://www.facebook.com/pg/cde.cfes/photos/?ref=page_internal\" target=\"_none\">Photos</a></td>\n  </tr>\n  <tr>\n    <td>2015</td>\n    <td>University of Waterloo</td>\n    <td>Waterloo, ON</td>\n    <td>November 20-22</td>\n  </tr>\n</table>"
+      twig: '0'
+      filter: '0'
+    block:
+      variations: title-center

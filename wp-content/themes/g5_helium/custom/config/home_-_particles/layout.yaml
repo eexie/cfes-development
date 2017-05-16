@@ -19,22 +19,22 @@ layout:
       - custom-2396
   /above/:
     -
-      - custom-6355
-    -
       - position-widget-8277
+    -
+      - position-widget-4137
   /testimonials/:
     -
       - custom-7658
   /expanded/:
     -
       - 'custom-5349 25'
-      - 'custom-7568 25'
       - 'custom-3774 25'
+      - 'custom-3554 25'
       - 'custom-1444 25'
     -
-      - 'custom-1036 25'
-      - 'custom-3554 25'
+      - 'custom-7568 25'
       - 'custom-3998 25'
+      - 'custom-1036 25'
       - 'custom-7674 25'
   /container-main/:
     -
@@ -124,15 +124,15 @@ content:
     attributes:
       items:
         -
-          image: 'gantry-media://header/img01.jpg'
+          image: 'gantry-media://31562040444_f6df4fd438_k (1).jpg'
           title: 'Congress 2017, London Ontario'
           desc: 'Hosted by Western University on January 2-7, 2017'
           link: 'blog post -1'
           linktext: 'Read More'
           buttonclass: button-outline
-          name: 'Item 1'
+          name: 'Congress 2017'
         -
-          image: 'gantry-media://header/img02.jpg'
+          image: 'gantry-media://32930411770_c65dc7721e_k.jpg'
           title: 'Helium is Gantry powered!'
           desc: 'Helium is based on the powerful Gantry framework.'
           link: 'http://gantry.org/downloads'
@@ -142,7 +142,7 @@ content:
   custom-5807:
     title: 'Mission Statement'
     attributes:
-      html: "<div class=\"fp-intro\">\n    <h2 class=\"g-title\">Supporting the growth and communication for engineering students</h2>\n    <p>to ensure their moral, intellectual,  cultural, academic, social and economic well-being.</p>\n    <!---<div class=\"ipad-mockup\">\n        <img src=\"gantry-media://intro/mockup.png\" alt=\"\" />\n    </div>-->\n</div>"
+      html: "<div class=\"fp-intro\">\n    <h2 class=\"g-title\">Supporting the growth and communication for engineering students</h2>\n    <p>to ensure their moral, intellectual,  cultural, academic, social, and economic well-being.</p>\n    <!---<div class=\"ipad-mockup\">\n        <img src=\"gantry-media://intro/mockup.png\" alt=\"\" />\n    </div>-->\n</div>"
     block:
       variations: center
       extra:
@@ -151,24 +151,27 @@ content:
   custom-3119:
     title: 'Main Points'
     attributes:
-      html: "<div class=\"fp-features\">\n    <div class=\"g-grid\">\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <i class=\"fa fa-joomla\"></i>\n                    <h4 class=\"card-title\">Who We Are</h4>\n                    <p class=\"card-text\">CFES is a student run words words words words words words words words words words words words words words</p>\n<br><br><a class=\"g-owlcarousel-item-button button button-outline\" href=\"_self\">Read More About Us</a>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <i class=\"fa fa-wordpress\"></i>\n                    <h4 class=\"card-title\">What We Do</h4>\n                    <p class=\"card-text\">CFES is a student run words words words words words words words words words words words words words words</p>\n<br><br><a class=\"g-owlcarousel-item-button button button-outline\" href=\"_self\">See What We Offer</a>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <i class=\"fa fa-grav\"></i>\n                    <h4 class=\"card-title\">Get Involved</h4>\n                    <p class=\"card-text\">CFES is a student run words words words words words words words words words words words words words words</p>\n<br><br><a class=\"g-owlcarousel-item-button button button-outline\" href=\"_self\">See Who We Represent</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+      html: "<div class=\"fp-features\">\n    <div class=\"g-grid\">\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <i class=\"fa fa-comments-o\"></i>\n                    <h4 class=\"card-title\">Who We Are</h4>\n                    <p class=\"card-text\">CFES is a student run words words words words words words words words words words words words words words</p>\n<br><br><a class=\"button button-outline\" href=\"_self\">Read More About Us</a>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <i class=\"fa fa-cogs\"></i>\n                    <h4 class=\"card-title\">What We Do</h4>\n                    <p class=\"card-text\">CFES is a student run words words words words words words words words words words words words words words</p>\n<br><br><a class=\"button button-outline\" href=\"_self\">Learn About Our Events</a>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <i class=\"fa fa-bullhorn\"></i>\n                    <h4 class=\"card-title\">Get Involved</h4>\n                    <p class=\"card-text\">CFES is a student run words words words words words words words words words words words words words words</p>\n<br><br><a class=\"button button-outline\" href=\"_self\">See Who We Represent</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
     block:
       variations: center
   custom-2396:
     title: stats
     attributes:
-      html: "<div class=\"fp-features\">\n    <div class=\"g-grid\">\n        <div class=\"g-block size-25\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <h4 class=\"card-title\">52</h4>\n                    <p class=\"card-text\">REPRESENTED MEMBER SOCIETIES</p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-25\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <h4 class=\"card-title\">8</h4>\n                    <p class=\"card-text\">ANNUAL EVENTS & SERVICES</p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-25\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <h4 class=\"card-title\">48</h4>\n                    <p class=\"card-text\">YEARS OF OPERATION</p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-25\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <h4 class=\"card-title\">60,000</h4>\n                    <p class=\"card-text\">STUDENTS REPRESENTED</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+      html: "<div class=\"fp-features\">\n    <div class=\"g-grid\">\n        <div class=\"g-block size-25\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <h4 class=\"card-title\">52</h4>\n                    <p class=\"card-text\">REPRESENTED MEMBER SCHOOLS</p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-25\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <h4 class=\"card-title\">8</h4>\n                    <p class=\"card-text\">ANNUAL EVENTS & SERVICES</p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-25\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <h4 class=\"card-title\">48</h4>\n                    <p class=\"card-text\">YEARS OF OPERATION</p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-25\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <h4 class=\"card-title\">60,000</h4>\n                    <p class=\"card-text\">STUDENTS REPRESENTED</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
     block:
       variations: 'center nopaddingall'
-  custom-6355:
-    title: 'Featured Posts'
-    attributes:
-      html: "    <h2 class=\"g-title\">Featured Posts</h2>\n    "
-    block:
-      variations: 'title-center nopaddingall nomarginall'
   position-widget-8277:
     attributes:
       widget: '{"type":"widget","widget":"cfp-widget","title":"Featured Posts","options":{"widget":{"category":"","taxonomy":"","post_type":"post","post_num":6,"offset":0,"post_id":0,"template":"fancy","cols_xs":1,"cols_sm":1,"cols_md":3,"title":""}}}'
+      key: widget
+    block:
+      variations: title-center
+      extra:
+        -
+          style: 'display:none;'
+  position-widget-4137:
+    attributes:
+      widget: '{"type":"widget","widget":"wpcufpn_widget","title":"WP Latest Posts Widget","options":{"widget":{"news_widget_id":"170"}}}'
       key: widget
     block:
       variations: title-center
@@ -182,50 +185,50 @@ content:
         -
           style: 'display:none;'
   custom-5349:
-    title: Congress
-    attributes:
-      html: "           <a href=\"#\" class=\"event-card\"> <div class=\"card\">\n                <div class=\"card-block\">\n                    <h3 class=\"card-title\">CANADIAN ENGINEERING COMPETITION</h3>\n                   <hr>\n                    <p class=\"card-text\">description</p>\n<p class=\"button\"> Learn More </p>\n                </div>\n            </div></a>\n        "
-    block:
-      variations: box2
-  custom-7568:
     title: CEC
     attributes:
-      html: "           <a href=\"#\" class=\"event-card\"> <div class=\"card\">\n                <div class=\"card-block\">\n                    <h3 class=\"card-title\">CANADIAN ENGINEERING COMPETITION</h3>\n                   <hr>\n                    <p class=\"card-text\">description</p>\n<p class=\"button\"> Learn More </p>\n                </div>\n            </div></a>\n        "
+      html: "           <a href=\"/canadian-engineering-competition/\" class=\"event-card\"> <div class=\"card\">\n                <div class=\"card-block\">\n                    <h3 class=\"card-title\">CANADIAN ENGINEERING COMPETITION</h3>\n                   <hr>\n                    <p class=\"card-text\">The annual gathering of the very best and brightest engineering students across Canada! Through seven competitions,\n students will be challenged in the fields of innovation, design, and communications</p>\n<p class=\"button\"> Learn More </p>\n                </div>\n            </div></a>\n        "
     block:
       variations: box2
   custom-3774:
     title: IEC
     attributes:
-      html: "           <a href=\"#\" class=\"event-card\"> <div class=\"card\">\n                <div class=\"card-block\">\n                    <h3 class=\"card-title\">CANADIAN ENGINEERING COMPETITION</h3>\n                   <hr>\n                    <p class=\"card-text\">description</p>\n<p class=\"button\"> Learn More </p>\n                </div>\n            </div></a>\n        "
-    block:
-      variations: box2
-  custom-1444:
-    title: NEM
-    attributes:
-      html: "           <a href=\"#\" class=\"event-card\"> <div class=\"card\">\n                <div class=\"card-block\">\n                    <h3 class=\"card-title\">CANADIAN ENGINEERING COMPETITION</h3>\n                   <hr>\n                    <p class=\"card-text\">description</p>\n<p class=\"button\"> Learn More </p>\n                </div>\n            </div></a>\n        "
-    block:
-      variations: box2
-  custom-1036:
-    title: 'Lean 6'
-    attributes:
-      html: "           <a href=\"#\" class=\"event-card\"> <div class=\"card\">\n                <div class=\"card-block\">\n                    <h3 class=\"card-title\">CANADIAN ENGINEERING COMPETITION</h3>\n                   <hr>\n                    <p class=\"card-text\">description</p>\n<p class=\"button\"> Learn More </p>\n                </div>\n            </div></a>\n        "
+      html: "           <a href=\"/international-engineering-competition/\" class=\"event-card\"> <div class=\"card\">\n                <div class=\"card-block\">\n                    <h3 class=\"card-title\">INTERNATIONAL ENGINEERING COMPETITION</h3>\n                   <hr>\n                    <p class=\"card-text\">Bringing together the brightest students from all across Canada, the United States, and Europe to compete in consulting and design\n</p>\n<p class=\"button\"> Learn More </p>\n                </div>\n            </div></a>\n        "
     block:
       variations: box2
   custom-3554:
     title: CDE
     attributes:
-      html: "           <a href=\"#\" class=\"event-card\"> <div class=\"card\">\n                <div class=\"card-block\">\n                    <h3 class=\"card-title\">CANADIAN ENGINEERING COMPETITION</h3>\n                   <hr>\n                    <p class=\"card-text\">description</p>\n<p class=\"button\"> Learn More </p>\n                </div>\n            </div></a>\n        "
+      html: "           <a href=\"/conference-on-diversity-in-engineering/\" class=\"event-card\"> <div class=\"card\">\n                <div class=\"card-block\">\n                    <h3 class=\"card-title\">CANADIAN ENGINEERING COMPETITION</h3>\n                   <hr>\n                    <p class=\"card-text\">CDE aims to develop knowledge surrounding the variety of individuals, cultures, and perspectives found within engineering communities</p>\n<p class=\"button\"> Learn More </p>\n                </div>\n            </div></a>\n        "
+    block:
+      variations: box2
+  custom-1444:
+    title: NEM
+    attributes:
+      html: "           <a href=\"/national-engineering-month/\" class=\"event-card\"> <div class=\"card\">\n                <div class=\"card-block\">\n                    <h3 class=\"card-title\">NATIONAL ENGINEERING MONTH</h3>\n                   <hr>\n                    <p class=\"card-text\">Every year during March throughout the country, Canada celebrates engineering excellence with 500+ events across the nation, showcasing the rewarding and impactful nature of engineering as a profession</p>\n<p class=\"button\"> Learn More </p>\n                </div>\n            </div></a>\n        "
+    block:
+      variations: box2
+  custom-7568:
+    title: Congress
+    attributes:
+      html: "           <a href=\"/congress/\" class=\"event-card\"> <div class=\"card\">\n                <div class=\"card-block\">\n                    <h3 class=\"card-title\">CONGRESS</h3>\n                   <hr>\n                    <p class=\"card-text\">The annual general meeting of the CFES and a platform for student collaboration with industry partners, sponsors and fellow students</p>\n<p class=\"button\"> Learn More </p>\n                </div>\n            </div></a>\n        "
     block:
       variations: box2
   custom-3998:
     title: PM
     attributes:
-      html: "           <a href=\"#\" class=\"event-card\"> <div class=\"card\">\n                <div class=\"card-block\">\n                    <h3 class=\"card-title\">CANADIAN ENGINEERING COMPETITION</h3>\n                   <hr>\n                    <p class=\"card-text\">description</p>\n<p class=\"button\"> Learn More </p>\n                </div>\n            </div></a>\n        "
+      html: "           <a href=\"/presidents-meeting\" class=\"event-card\"> <div class=\"card\">\n                <div class=\"card-block\">\n                    <h3 class=\"card-title\">PRESIDENT'S MEETING</h3>\n                   <hr>\n                    <p class=\"card-text\">Meeting called by the CFES President, between executive representatives of all member schools and the CFES Officers.</p>\n<p class=\"button\"> Learn More </p>\n                </div>\n            </div></a>\n        "
+    block:
+      variations: box2
+  custom-1036:
+    title: 'Lean 6'
+    attributes:
+      html: "           <a href=\"/lean-6-sigma/\" class=\"event-card\"> <div class=\"card\">\n                <div class=\"card-block\">\n                    <h3 class=\"card-title\">LEAN 6 SIGMA</h3>\n                   <hr>\n                    <p class=\"card-text\">Ten-day L6S Green Belt certification course combining lean manufacturing and Six Sigma waste elimination methodologies</p>\n<p class=\"button\"> Learn More </p>\n                </div>\n            </div></a>\n        "
     block:
       variations: box2
   custom-7674:
     title: BEST
     attributes:
-      html: "           <a href=\"#\" class=\"event-card\"> <div class=\"card\">\n                <div class=\"card-block\">\n                    <h3 class=\"card-title\">CANADIAN ENGINEERING COMPETITION</h3>\n                   <hr>\n                    <p class=\"card-text\">description</p>\n<p class=\"button\"> Learn More </p>\n                </div>\n            </div></a>\n        "
+      html: "           <a href=\"/best-courses/\" class=\"event-card\"> <div class=\"card\">\n                <div class=\"card-block\">\n                    <h3 class=\"card-title\">BEST COURSES</h3>\n                   <hr>\n                    <p class=\"card-text\">Complementary education courses all across Europe</p>\n<p class=\"button\"> Learn More </p>\n                </div>\n            </div></a>\n        "
     block:
       variations: box2

@@ -1,0 +1,4 @@
+preset: preset1
+testimonials:
+  background-image: 'gantry-media://32930411770_c65dc7721e_k.jpg'
+  background-overlay: enabled

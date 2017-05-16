@@ -1,0 +1,77 @@
+name: national_engineering_month
+timestamp: 1494951805
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1493084029
+positions: {  }
+sections:
+  navigation: Navigation
+  intro: Intro
+  features: Features
+  utility: Utility
+  above: Above
+  testimonials: Testimonials
+  expanded: Expanded
+  header: Header
+  mainbar: Mainbar
+  sidebar: Sidebar
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  owlcarousel:
+    owlcarousel-5918: 'Owl Carousel'
+  totop:
+    totop-7084: 'To Top'
+  custom:
+    custom-3521: 'Current Year NEM Info'
+    custom-1476: Intro
+    custom-4014: 'Custom HTML'
+    custom-2386: 'Custom HTML'
+    custom-8037: stats
+  widget:
+    position-widget-4258: Widget
+    position-widget-1942: ABOUT
+    position-widget-1644: 'events & services'
+    position-widget-2974: Resources
+    position-widget-7066: Widget
+  horizontalmenu:
+    horizontalmenu-7708: 'Horizontal Menu'
+    horizontalmenu-9063: 'Horizontal Menu'
+  logo:
+    logo-6997: 'Logo / Image'
+    logo-6442: 'Logo / Image'
+  menu:
+    menu-9086: Menu
+  social:
+    social-7852: Social
+  copyright:
+    copyright-7505: Copyright
+  mobile-menu:
+    mobile-menu-7694: Mobile-menu
+inherit:
+  default:
+    navigation: navigation
+    totop-7084: totop-8670
+    footer: footer
+    offcanvas: offcanvas
+    logo-6442: logo-9608
+    menu-9086: menu-6409
+    social-7852: social-3171
+    position-widget-1942: position-widget-5932
+    position-widget-1644: position-widget-1245
+    position-widget-2974: position-widget-2815
+    position-widget-7066: position-widget-1915
+    copyright-7505: copyright-1736
+    mobile-menu-7694: mobile-menu-5697
+  international_engineering_competition:
+    horizontalmenu-7708: horizontalmenu-8428
+    horizontalmenu-9063: horizontalmenu-5462
+  about:
+    utility: utility
+    mainbar: mainbar
+    sidebar: sidebar
+    custom-8037: custom-2396
+  canadian_engineering_competition:
+    above: above

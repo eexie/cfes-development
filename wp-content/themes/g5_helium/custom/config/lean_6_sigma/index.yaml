@@ -1,0 +1,95 @@
+name: lean_6_sigma
+timestamp: 1494951805
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1493084029
+positions: {  }
+sections:
+  navigation: Navigation
+  intro: Intro
+  features: Features
+  utility: Utility
+  above: Above
+  testimonials: Testimonials
+  expanded: Expanded
+  header: Header
+  mainbar: Mainbar
+  sidebar: Sidebar
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  owlcarousel:
+    owlcarousel-2309: 'Owl Carousel'
+  custom:
+    custom-2345: 'Current Year Host Info'
+    custom-4354: Intro
+    custom-3613: 'Custom HTML'
+    custom-9380: stats
+    custom-7643: 'Competition Categories Title'
+    custom-8137: 'Junior Design'
+    custom-9976: 'Senior Design'
+    custom-4200: 'Innovative Design'
+    custom-2605: Communications
+    custom-3184: Consulting
+    custom-3763: RE-ENGINEERING
+    custom-8901: 'Custom HTML'
+    custom-3841: DEBATE
+    custom-6857: 'Custom HTML'
+    custom-6110: 'Past hosts'
+  widget:
+    position-widget-3923: Widget
+    position-widget-5479: ABOUT
+    position-widget-3604: 'events & services'
+    position-widget-1523: Resources
+    position-widget-7084: Widget
+  logo:
+    logo-9966: 'Logo / Image'
+  menu:
+    menu-3775: Menu
+  social:
+    social-1154: Social
+  copyright:
+    copyright-9397: Copyright
+  totop:
+    totop-9442: 'To Top'
+  mobile-menu:
+    mobile-menu-7149: Mobile-menu
+inherit:
+  default:
+    navigation: navigation
+    footer: footer
+    offcanvas: offcanvas
+    logo-9966: logo-9608
+    menu-3775: menu-6409
+    social-1154: social-3171
+    position-widget-5479: position-widget-5932
+    position-widget-3604: position-widget-1245
+    position-widget-1523: position-widget-2815
+    position-widget-7084: position-widget-1915
+    copyright-9397: copyright-1736
+    totop-9442: totop-8670
+    mobile-menu-7149: mobile-menu-5697
+  canadian_engineering_competition:
+    position-widget-3923: position-widget-8009
+    above: above
+  about:
+    utility: utility
+    mainbar: mainbar
+    sidebar: sidebar
+    custom-9380: custom-2396
+  international_engineering_competition:
+    custom-3613: custom-9426
+    expanded: expanded
+    custom-7643: custom-1806
+    custom-8137: custom-3445
+    custom-9976: custom-4513
+    custom-4200: custom-3002
+    custom-2605: custom-1909
+    custom-3184: custom-3590
+    custom-3763: custom-9733
+    custom-8901: custom-9419
+    custom-3841: custom-3429
+    custom-6857: custom-9340
+    custom-6110: custom-7274

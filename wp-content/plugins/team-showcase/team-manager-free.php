@@ -130,7 +130,7 @@ function team_manager_free_register_shortcode($atts, $content = null){
 
         $team_manager_free_category_select = get_post_meta($post_id, 'team_manager_free_category_select', true);
         $team_manager_free_post_themes = get_post_meta($post_id, 'team_manager_free_post_themes', true);
-        $team_manager_free_post_column = get_post_meta($post_id, 'team_manager_free_post_column', true);
+        $team_manager_free_post_column = get_post_meta($post_id, 'team_manager_free_post_column', true) +1;
         $team_manager_free_header_font_size = get_post_meta($post_id, 'team_manager_free_header_font_size', true);
         $team_manager_free_designation_font_size = get_post_meta($post_id, 'team_manager_free_designation_font_size', true);
         $team_manager_free_biography_option = get_post_meta($post_id, 'team_manager_free_biography_option', true);
@@ -160,7 +160,7 @@ function team_manager_free_register_shortcode($atts, $content = null){
 			$tmf_query = new WP_Query( $args );
 			
 			
-			$tmfrndsk = rand(1,1000);
+			$tmfrndsk = 1;
 			
 				$result='';
 				if($team_manager_free_post_themes=="theme1")
@@ -214,7 +214,7 @@ function team_manager_free_register_shortcode($atts, $content = null){
 						background: #fff none repeat scroll 0 0;
 						border: 1px solid #fff;
 						box-shadow: none;
-						color: #da3e65;
+						color: #005ea4 !important;
 						height: 25px;
 						line-height: 25px;
 						outline: medium none;
@@ -266,14 +266,6 @@ function team_manager_free_register_shortcode($atts, $content = null){
 
 					.team_popup_container-'.$tmfrndsk.' {
 						display: block;
-						overflow: hidden;
-					}
-					.team_popup_left_side_area-'.$tmfrndsk.' {
-						display: block;
-						float: left;
-						height: auto;
-						margin-right: 50px;
-						width: 300px;
 						overflow: hidden;
 					}
 					.team_popup_left_side_area-'.$tmfrndsk.' > h2 {
@@ -330,7 +322,6 @@ function team_manager_free_register_shortcode($atts, $content = null){
 					.team_popup_contact_area-'.$tmfrndsk.' span.cemail {
 					  display: block;
 					  overflow: hidden;
-					  text-align: left;
 					}
 
 					.teamshowcasefree-col-lg-1, .teamshowcasefree-col-lg-2, .teamshowcasefree-col-lg-3, .teamshowcasefree-col-lg-4, .teamshowcasefree-col-lg-5, .teamshowcasefree-col-lg-6, .teamshowcasefree-col-md-1, .teamshowcasefree-col-md-2, .teamshowcasefree-col-md-3, .teamshowcasefree-col-md-4, .teamshowcasefree-col-md-5, .teamshowcasefree-col-md-6, .teamshowcasefree-col-sm-1, .teamshowcasefree-col-sm-2, .teamshowcasefree-col-sm-3, .teamshowcasefree-col-sm-4, .teamshowcasefree-col-sm-5, .teamshowcasefree-col-sm-6, .teamshowcasefree-col-xs-1, .teamshowcasefree-col-xs-2, .teamshowcasefree-col-xs-3, .teamshowcasefree-col-xs-4, .teamshowcasefree-col-xs-5, .teamshowcasefree-col-xs-6 {
@@ -405,8 +396,10 @@ function team_manager_free_register_shortcode($atts, $content = null){
 						.teamshowcasefree-col-sm-6{
 							width: 16.66666666666667%;
 						}
-
-
+						.team_popup_left_side_area-'.$tmfrndsk.' { 
+							margin: 0 50px;
+							width: 100%;
+				
 					}
 
 					/* xs */
@@ -1481,17 +1474,18 @@ function team_manager_free_register_shortcode($atts, $content = null){
 									<a href="#" data-featherlight="#fl1'.$random_team_id.'"><img src="'.$thumb_url[0].'" alt="" /></a>
 									<div class="lightbox" id="fl1'.$random_team_id.'">
 										<div class="team_popup_container-'.$tmfrndsk.'">
+											<h2><strong>'.esc_attr(get_the_title()).'</strong><em style="font-size:1.25rem;"><br>' .esc_attr($team_manager_free_client_designation).'</em></h2>
 											<div class="team_popup_left_side_area-'.$tmfrndsk.'">
-												<h2>'.esc_attr(get_the_title()).'</h2>
+												
 												<div class="team_popup_left_side_area_img-'.$tmfrndsk.'">
 													<img src="'.$thumb_url[0].'" alt="" />
 												</div>
 												<div class="team_popup_contact_area-'.$tmfrndsk.'">
-													<span class="cemail">'.sanitize_email( $team_manager_free_client_email ).'</span>
 													<span class="cemail">'.esc_attr( $team_manager_free_client_number ).'</span>
 													<span class="cemail">'.esc_attr( $team_manager_free_client_address ).'</span>
 												</div>
 												<ul class="team-manager-popup-items-social-'.$tmfrndsk.'">';
+													$result.='<li><a target="'.$team_manager_free_social_target.'" href="mailto:'.($team_manager_free_client_email).'"><span class="cemail"><i class="fa fa-envelope" aria-hidden="true"></i>  '.sanitize_email( $team_manager_free_client_email ).'</span></a></li>';
 													if(!empty($team_manager_free_social_facebook))
 													{
 														$result.='<li><a href="'.esc_url($team_manager_free_social_facebook).'" class="fa fa-facebook"></a></li>';
@@ -1518,6 +1512,10 @@ function team_manager_free_register_shortcode($atts, $content = null){
 										<span>'.esc_attr($team_manager_free_client_designation).'</span>
 									</div>
 									<ul class="team-manager-free-items-style4-sociallinks-'.$tmfrndsk.'">';
+										if(!empty($team_manager_free_client_email))
+										{
+											$result.='<li><a target="'.$team_manager_free_social_target.'" href="mailto:'.($team_manager_free_client_email).'" class="fa fa-envelope"></a></li>';
+										}
 										if(!empty($team_manager_free_social_facebook))
 										{
 											$result.='<li><a target="'.$team_manager_free_social_target.'" href="'.esc_url($team_manager_free_social_facebook).'" class="fa fa-facebook"></a></li>';

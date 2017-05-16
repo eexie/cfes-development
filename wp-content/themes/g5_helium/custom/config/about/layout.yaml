@@ -116,23 +116,27 @@ content:
       nav: disable
       items:
         -
-          image: 'gantry-media://header/img01.jpg'
+          image: 'gantry-media://17632116_1010937885673982_3030542739450036654_o.jpg'
           title: 'The Canadian Federation of Engineering Students'
           desc: ''
           link: ''
           linktext: ''
           buttonclass: ''
           name: 'Item 1'
+    block:
+      extra:
+        -
+          style: 'margin-top:5%'
   custom-5807:
     title: Intro
     attributes:
-      html: "<div class=\"fp-intro\">\n<h3>The Canadian Federation of Engineering Students (CFES) is a national, bilingual organization that represents approximately 60,000 engineering students across Canada. Offering services ranging from leadership development conferences, to technical skill competitions, a national student magazine and other outreach efforts, the CFES aims to provide opportunities in support of an all-encompassing education for engineering students in Canada to become unparalleled professionals in their field.</h3>\n<p id=\"mission-vision\"></p>\n</div>"
+      html: "<div class=\"fp-intro\">\n<h4>The Canadian Federation of Engineering Students (CFES) is a national, bilingual organization that represents approximately 60,000 engineering students across Canada. Offering services ranging from leadership development conferences, to technical skill competitions, a national student magazine and other outreach efforts, the CFES aims to provide opportunities in support of an all-encompassing education for engineering students in Canada to become unparalleled professionals in their field.</h4>\n<p id=\"mission-vision\"></p>\n</div>"
     block:
       variations: center
   custom-3119:
     title: 'Mission & Vision'
     attributes:
-      html: "<div class=\"fp-intro\">\n<h2 class=\"g-title\">Mission & Vision</h2>\n\t<p>The CFES supports growth and communication within its members to ensure their moral, intellectual,  cultural, academic, social and economic well-being. The Federation represents and promotes Canadian undergraduate engineering students on a national and international level. The CFES will not align itself with any political partisan movement.</p>\n\t<p> The goal of the CFES is to solicit, represent, organize and exchange views, information and activities pertinent to the goals of the members at a national level as to ensure their moral, intellectual, cultural, academic, social and economic well-being, and to improve the quality and scope of Canadian engineering education. The means by which this will be done are:</p>\n\t<ol>\n\t\t<li>Offering bilingual opportunities which foster the development of the following facets of an engineering education:\n\t\t<ul>\n\t\t\t<li>Leadership</li>\n\t\t\t<li>Professional and Ethical Qualities</li>\n\t\t\t<li>Engineering Identity</li>\n\t\t\t<li>Technical Proficiency</li>\n\t\t\t<li>Communication</li>\n\t\t</ul></li>\n\t\t<li>Provides representation on issues relevant to engineering students in Canada and affiliate itself with any organization pursuing the same goals,</li>\n\t\t<li>Promotes the free exchange of ideas and experiences to support the constant evolution of student environments across Canada.</li>\n\t</ol>\n</div>"
+      html: "<div class=\"fp-intro\">\n<h2 class=\"g-title\">Mission & Vision</h2>\n\t<p>The CFES supports growth and communication within its members to ensure their moral, intellectual,  cultural, academic, social, and economic well-being. The Federation represents and promotes Canadian undergraduate engineering students on a national and international level. The CFES will not align itself with any political partisan movement.</p>\n\t<p> The goal of the CFES is to solicit, represent, organize and exchange views, information, and activities pertinent to the goals of the members at a national level to improve the quality and scope of Canadian engineering education and experience. The means by which this will be done are:</p>\n\t<ol>\n\t\t<li>Offering bilingual opportunities which foster the development of the following facets of an engineering education:\n\t\t<ul>\n\t\t\t<li>Leadership</li>\n\t\t\t<li>Professional and Ethical Qualities</li>\n\t\t\t<li>Engineering Identity</li>\n\t\t\t<li>Technical Proficiency</li>\n\t\t\t<li>Communication</li>\n\t\t</ul></li>\n\t\t<li>Provides representation on issues relevant to engineering students in Canada and affiliate itself with any organization pursuing the same goals,</li>\n\t\t<li>Promotes the free exchange of ideas and experiences to support the constant evolution of student environments across Canada.</li>\n\t</ol>\n</div>"
     block:
       variations: title-center
   custom-2396:

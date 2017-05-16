@@ -1,0 +1,7 @@
+context: {  }
+menu: {  }
+post:
+  page:
+    60: true
+taxonomy: {  }
+archive: {  }

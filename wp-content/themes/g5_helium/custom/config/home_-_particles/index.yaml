@@ -1,5 +1,5 @@
 name: home_-_particles
-timestamp: 1494461497
+timestamp: 1494951849
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -32,18 +32,18 @@ particles:
     custom-5807: 'Mission Statement'
     custom-3119: 'Main Points'
     custom-2396: stats
-    custom-6355: 'Featured Posts'
     custom-7658: 'Customer Testimonials (hidden)'
-    custom-5349: Congress
-    custom-7568: CEC
+    custom-5349: CEC
     custom-3774: IEC
-    custom-1444: NEM
-    custom-1036: 'Lean 6'
     custom-3554: CDE
+    custom-1444: NEM
+    custom-7568: Congress
     custom-3998: PM
+    custom-1036: 'Lean 6'
     custom-7674: BEST
   widget:
     position-widget-8277: Widget
+    position-widget-4137: Widget
     position-widget-9437: ABOUT
     position-widget-3181: 'events & services'
     position-widget-4239: Resources

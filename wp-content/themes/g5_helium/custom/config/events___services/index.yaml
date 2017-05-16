@@ -1,5 +1,5 @@
 name: events___services
-timestamp: 1494462749
+timestamp: 1494951849
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -20,12 +20,6 @@ sections:
   footer: Footer
   offcanvas: Offcanvas
 particles:
-  logo:
-    logo-2988: 'Logo / Image'
-  menu:
-    menu-6681: Menu
-  social:
-    social-5670: Social
   widget:
     position-widget-8708: 'PM Countdown'
     position-widget-5039: ABOUT
@@ -34,14 +28,20 @@ particles:
     position-widget-1600: Widget
   custom:
     custom-1692: 'Mission Statement'
-    custom-3038: Congress
-    custom-9097: CEC
+    custom-3038: CEC
     custom-5926: IEC
-    custom-3960: NEM
-    custom-5939: 'Lean 6'
     custom-6522: CDE
+    custom-3960: NEM
+    custom-9097: Congress
     custom-5232: PM
+    custom-5939: 'Lean 6'
     custom-4691: BEST
+  logo:
+    logo-2988: 'Logo / Image'
+  menu:
+    menu-6681: Menu
+  social:
+    social-5670: Social
   copyright:
     copyright-2982: Copyright
   totop:
@@ -51,28 +51,28 @@ particles:
 inherit:
   default:
     navigation: navigation
+    footer: footer
+    offcanvas: offcanvas
     logo-2988: logo-9608
     menu-6681: menu-6409
     social-5670: social-3171
-    footer: footer
     position-widget-5039: position-widget-5932
     position-widget-9483: position-widget-1245
     position-widget-5584: position-widget-2815
     position-widget-1600: position-widget-1915
     copyright-2982: copyright-1736
     totop-8865: totop-8670
-    offcanvas: offcanvas
     mobile-menu-1517: mobile-menu-5697
   home_-_particles:
     custom-1692: custom-5807
     expanded: expanded
-    custom-3038: custom-5349
-    custom-9097: custom-7568
-    custom-5926: custom-3774
-    custom-3960: custom-1444
-    custom-5939: custom-1036
-    custom-6522: custom-3554
-    custom-5232: custom-3998
-    custom-4691: custom-7674
     mainbar: mainbar
     sidebar: sidebar
+    custom-3038: custom-5349
+    custom-5926: custom-3774
+    custom-6522: custom-3554
+    custom-3960: custom-1444
+    custom-9097: custom-7568
+    custom-5232: custom-3998
+    custom-5939: custom-1036
+    custom-4691: custom-7674

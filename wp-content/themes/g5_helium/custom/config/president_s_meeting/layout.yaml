@@ -1,0 +1,166 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1493084029
+layout:
+  navigation: {  }
+  /header/:
+    -
+      - owlcarousel-8719
+  /intro/:
+    -
+      - custom-2030
+    -
+      - position-widget-9788
+  /features/:
+    -
+      - custom-5061
+  utility: {  }
+  above: {  }
+  testimonials: {  }
+  /expanded/:
+    -
+      - custom-7157
+  /container-main/:
+    -
+      -
+        'mainbar 75': {  }
+      -
+        'sidebar 25': {  }
+  footer: {  }
+  offcanvas: {  }
+structure:
+  navigation:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  header:
+    attributes:
+      boxed: ''
+      class: g-flushed
+      extra:
+        -
+          style: 'max-height:580px;'
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      extra:
+        -
+          style: 'padding: 1.5em 0;'
+  features:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  utility:
+    type: section
+    inherit:
+      outline: about
+      include:
+        - attributes
+        - block
+        - children
+  above:
+    type: section
+    inherit:
+      outline: canadian_engineering_competition
+      include:
+        - attributes
+        - block
+        - children
+  testimonials:
+    type: section
+    inherit:
+      outline: congress
+      include:
+        - attributes
+        - block
+        - children
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      extra:
+        -
+          style: 'background-color:#f0f0f0;'
+  mainbar:
+    type: section
+    subtype: main
+    inherit:
+      outline: about
+      include:
+        - attributes
+        - block
+        - children
+  sidebar:
+    type: section
+    subtype: aside
+    inherit:
+      outline: about
+      include:
+        - attributes
+        - block
+        - children
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+content:
+  owlcarousel-8719:
+    title: 'Owl Carousel'
+    attributes:
+      nav: disable
+      items:
+        -
+          image: 'gantry-media://32913028832_96818d605d_k.jpg'
+          title: 'President''s Meeting'
+          desc: 'Meeting called by the CFES President, between executive representatives of all member schools and the CFES Officers.'
+          link: ''
+          linktext: ''
+          buttonclass: ''
+          name: 'Item 1'
+  custom-2030:
+    title: 'Current Year Host Info'
+    attributes:
+      html: "<div class=\"fp-intro\">\n<h4><strong>PM 2017 will be held at Simon Fraser University on September 22-24</strong></h4>\n<p id=\"mission-vision\">The theme is <strong>\"TBD\"</strong></p>\n<a class=\"button button-outline\" href=\"http://pm.cfes.ca/\" target=\"_none\">VIST WEBSITE</a>\n</div>"
+    block:
+      variations: center
+  position-widget-9788:
+    attributes:
+      widget: '{"type":"widget","widget":"shailan-countdown-widget","title":"PM Countdown","options":{"widget":{"title":"","event":"","direction":"down","date":"22-09-2017","hour":"16","minutes":"00","seconds":"00","format":"dHMS","timezone":"-5","color":"#000000","bgcolor":"","width":"","radius":"","link":"1","day":"22","month":"09","year":"2017"}}}'
+    block:
+      extra:
+        -
+          style: 'padding:0px 0 30px 0; background-color:#fff;outline:2px solid #fff383;outline-offset: -20px;margin-top:2.5rem;'
+  custom-5061:
+    title: Intro
+    attributes:
+      html: "<div class=\"fp-intro\">\n<p>The CFES President’s meeting is an intimate gathering between the CFES Board of Directors, the National Executive, and members. Every Fall, this meeting brings together engineering student leaders from across Canada to discuss, engage, and share ideas and experiences. This meeting serves as an introduction to the CFES and a chance to deeply understand your role as a member and stakeholder of the organization, a chance to network with fellow engineering societies, informational sessions, and preparation for Congress.</p>\n<p id=\"mission-vision\"></p> \n</div>"
+      twig: '0'
+      filter: '0'
+  custom-7157:
+    title: 'Past hosts'
+    attributes:
+      html: "<br><h2 class=\"g-title\">Past Hosts</h2>\n<table>\n  <tr>\n    <th>Year</th>\n    <th>Host</th>\n    <th>Location</th>\n    <th>Date</th>\n    <th></th>\n  </tr>\n  <tr>\n    <td>2017</td>\n    <td>Simon Fraser University</td>\n    <td>Burnaby, BC</td>\n    <td>September 22-25</td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>2016</td>\n    <td>Memorial University</td>\n    <td>St. John's, NL</td>\n    <td>September 23-25</td>\n    <td><a href=\"https://drive.google.com/open?id=0BwH9BMiz2B_EVlQzVFpHdXNKR00\"\n target=\"_blank\">Documents</a>    <a href=\"https://www.flickr.com/photos/147682432@N05/albums/72157680883553325\" target=\"_blank\">Photos</a></td>\n  </tr>\n  <tr>\n    <td>2015</td>\n    <td>UBC Vancouver</td>\n    <td>Camp Jubilee, BC</td>\n    <td>September 25-27</td>\n    <td><a href=\"https://drive.google.com/open?id=0B1NR6H5QnzJoSWpBREliUkxKMGs\"\n target=\"_blank\">Documents</a></td>\n  </tr>\n  <tr>\n    <td>2014</td>\n    <td>Conestoga College</td>\n    <td>Kitchener, ON</td>\n    <td>September 26-29</td>\n    <td><a href=\"https://drive.google.com/open?id=0B7FLe1tAkteMZE5uZXJrQVIweG8\"\n target=\"_blank\">Documents</a></td>\n  </tr>\n  <tr>\n    <td>2013</td>\n    <td>McGill University</td>\n    <td>Montréal, QC</td>\n    <td>September 27-30</td>\n    <td><a href=\"https://drive.google.com/open?id=0B7FLe1tAkteMWUFSbms5UHFYWTg\"\n target=\"_blank\">Documents</a></td>\n  </tr>\n  <tr>\n    <td>2012</td>\n    <td>Dalhousie University</td>\n    <td>Halifax, NS</td>\n    <td>September 21-24</td>\n    <td><a href=\"https://drive.google.com/open?id=0B7FLe1tAkteMZ2FxSWlHMlU1Z0U\"\n target=\"_blank\">Documents</a></td>\n  </tr>\n   <tr>\n    <td>2011</td>\n    <td>UBC Okanagan</td>\n    <td>Kelowna, BC</td>\n    <td>September 23-25</td>\n    <td><a href=\"https://drive.google.com/open?id=0B7FLe1tAkteMVVVMY1JPSVE1NkE\"\n target=\"_blank\">Documents</a></td>\n  </tr>\n   <tr>\n    <td>2010</td>\n    <td>ÉTS</td>\n    <td>Montréal, QC</td>\n    <td>September 24-27</td>\n    <td><a href=\"https://drive.google.com/open?id=0B7FLe1tAkteMYVFzbGVDTmMyUkk\"\n target=\"_blank\">Documents</a></td>\n  </tr>\n</table>"
+      twig: '0'
+      filter: '0'
+    block:
+      variations: title-center

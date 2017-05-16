@@ -5,6 +5,41 @@
  * Copyright 2016, Noël Raoul Bossart (http://www.noelboss.com)
  * MIT Licensed.
 **/
+.team_popup_container-1 h2{
+	margin: 50px;
+	margin-top: 10px;
+	text-align: center;
+}
+.team_popup_left_side_area-1 {
+	margin: 0 50px;
+	margin-left:25px;
+	width: 300px;
+	text-align:center;
+}
+.team-manager-popup-items-social-1 li a{
+	color: #005ea4 !important;
+}
+.team-manager-popup-items-social-1 li a:hover{
+	color: #333 !important;
+}	
+.team_popup_left_side_area_img-1 > img{
+	display: -webkit-inline-box !important;
+}
+@media screen and (max-width:700px){
+	.team_popup_left_side_area-1{
+		width:100% !important;
+		margin: auto;
+	}
+	.team_popup_left_side_area_img-1{
+		margin: auto 10px;
+	}
+	.team_popup_container-1 h2{
+		margin: 20px 0;
+	}
+}
+.team_popup_right_side_area-1{
+	padding: 0 50px;
+}
 @media all {
 	.featherlight {
 		display: none;
@@ -77,8 +112,8 @@
 		/* position: centering vertical and horizontal */
 		position: absolute;
 		z-index: 9999;
-		top: 0;
-		right: 0;
+		top: 25px;
+		right: 25px;
 
 		/* dimensions: 25px x 25px */
 		line-height: 25px;

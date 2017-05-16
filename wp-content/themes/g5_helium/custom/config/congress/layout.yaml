@@ -1,0 +1,176 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1493084029
+layout:
+  navigation: {  }
+  /header/:
+    -
+      - owlcarousel-9628
+  /intro/:
+    -
+      - custom-1542
+    -
+      - position-widget-3082
+  /features/:
+    -
+      - custom-4849
+  utility: {  }
+  above: {  }
+  /testimonials/:
+    -
+      - custom-8079
+  /expanded/:
+    -
+      - custom-8169
+  /container-main/:
+    -
+      -
+        'mainbar 75': {  }
+      -
+        'sidebar 25': {  }
+  footer: {  }
+  offcanvas: {  }
+structure:
+  navigation:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  header:
+    attributes:
+      boxed: ''
+      class: g-flushed
+      extra:
+        -
+          style: 'max-height:580px;'
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      extra:
+        -
+          style: 'padding: 1.5em 0;'
+  features:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  utility:
+    type: section
+    inherit:
+      outline: about
+      include:
+        - attributes
+        - block
+        - children
+  above:
+    type: section
+    inherit:
+      outline: canadian_engineering_competition
+      include:
+        - attributes
+        - block
+        - children
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      extra:
+        -
+          style: 'display:none;'
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      extra:
+        -
+          style: 'background-color:#f0f0f0;'
+  mainbar:
+    type: section
+    subtype: main
+    inherit:
+      outline: about
+      include:
+        - attributes
+        - block
+        - children
+  sidebar:
+    type: section
+    subtype: aside
+    inherit:
+      outline: about
+      include:
+        - attributes
+        - block
+        - children
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+content:
+  owlcarousel-9628:
+    title: 'Owl Carousel'
+    attributes:
+      nav: disable
+      items:
+        -
+          image: 'gantry-media://32122232751_1b31126c01_k.jpg'
+          title: Congress
+          desc: 'The annual general meeting of the CFES and a platform for student collaboration with industry partners, sponsors and fellow students'
+          link: /ccc
+          linktext: 'CONGRESS CONTROL CENTER'
+          buttonclass: button-outline
+          name: 'Item 1'
+  custom-1542:
+    title: 'Current Year Host Info'
+    attributes:
+      html: "<div class=\"fp-intro\">\n<h4><strong>Congress 2018 will be held at Dalhousie University on January 2-7</strong></h4>\n<p id=\"mission-vision\">The theme is <strong>\"TBD\"</strong></p>\n<a class=\"button button-outline\" href=\"http://congress.cfes.ca/\" target=\"_none\">VIST WEBSITE</a>\n</div>"
+    block:
+      variations: center
+  position-widget-3082:
+    attributes:
+      widget: '{"type":"widget","widget":"shailan-countdown-widget","title":"Congress Countdown","options":{"widget":{"title":"","event":"","direction":"down","date":"02-01-2018","hour":"16","minutes":"00","seconds":"00","format":"dHMS","timezone":"-5","color":"#000000","bgcolor":"","width":"","radius":"","link":"1","day":"02","month":"01","year":"2018"}}}'
+    block:
+      extra:
+        -
+          style: 'padding:0px 0 30px 0; background-color:#fff;outline:2px solid #fff383;outline-offset: -20px;margin-top:2.5rem;'
+  custom-4849:
+    title: Intro
+    attributes:
+      html: "<div class=\"fp-intro\">\n<p>CFES Congress is an annual, bi-lingual, student-run conference that has two primary objectives.  The first is that CFES Congress is the annual general meeting of the CFES and the second is that it provides a platform from which students can collaborate with and learn from our industry partners, sponsors and fellow students. Attracting between 150 and 200 delegates from over 40 engineering schools, CFES Congress is a great opportunity to reach out and engage engineering student leaders from every institution and field of engineering.\n<br><br>\nDelegates attending CFES Congress are provided with a fantastic opportunity to meet with and learn from other student leaders and industry professionals.  This National transfer of knowledge is invaluable, as it provides students with tangible, real-life examples and advice on how to improve their personal and professional skills, their engineering societies and their Faculty as a whole. CFES Congress boasts a wide range of speakers and topics ranging from professional presentations from our sponsors and industry partners to student led roundtables and panels that dissect the finer points of running student organizations.\n<br><br>\nEach year the privilege of hosting CFES Congress is bid for and voted on by ambitious student leaders from across the country.  Past CFES Congress’ have been hosted in every corner of our great country.  From Whitehorse to St. John’s to Vancouver and everywhere in between, CFES Congress is truly a national event.\n<br><br>\nThe CFES strongly believes that CFES Congress is an incredible opportunity for engineering students to expand their learning beyond the classroom and to provide the maximum possible benefit to themselves, their Engineering Student Organization and their Engineering Faculty.</p>\n<p id=\"mission-vision\"></p> \n</div>"
+      twig: '0'
+      filter: '0'
+  custom-8079:
+    title: 'Custom HTML'
+    inherit:
+      outline: canadian_engineering_competition
+      include:
+        - attributes
+        - block
+      particle: custom-2888
+  custom-8169:
+    title: 'Past hosts'
+    attributes:
+      html: "<br><h2 class=\"g-title\">Past Hosts</h2>\n<table>\n  <tr>\n    <th>Year</th>\n    <th>Host</th>\n    <th>Location</th>\n    <th>Date</th>\n    <th>Media</th>\n  </tr>\n  <tr>\n    <td>2018</td>\n    <td>Dalhousie University</td>\n    <td>Halifax, Nova Scotia</td>\n    <td>January 2-6</td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>2017</td>\n    <td>Western University</td>\n    <td>London, ON</td>\n    <td>January 3-7</td>\n    <td><a href=\"https://www.flickr.com/photos/147682432@N05/albums/72157675839042663\" target=\"_blank\">Photos</a></td>\n  </tr>\n  <tr>\n    <td>2016</td>\n    <td>University of Calgary</td>\n    <td>Calgary, AB</td>\n    <td>January 5-9</td>\n    <td><a href=\"https://www.flickr.com/photos/147682432@N05/albums/72157676044939524\" target=\"_blank\">Photos</a></td>\n  </tr>\n  <tr>\n    <td>2015</td>\n    <td>University of Winnipeg</td>\n    <td>Winnipeg, Manitoba</td>\n    <td>January 6-10</td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>2014</td>\n    <td>Université de Sherbrooke</td>\n    <td>Sherbrooke, QC</td>\n    <td>January 7-11</td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>2013</td>\n    <td>University of Waterloo</td>\n    <td>Waterloo, ON</td>\n    <td>January 8-12</td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>2012</td>\n    <td>Yukon College</td>\n    <td>Whitehorse, YT</td>\n    <td>January 3-7</td>\n    <td></td>\n  </tr>\n   <tr>\n    <td>2011</td>\n    <td>Memorial University of Newfoundland</td>\n    <td>St. John's, NL</td>\n    <td>January 4-8</td>\n    <td></td>\n  </tr>\n   <tr>\n    <td>2010</td>\n    <td>McMaster University</td>\n    <td>Hamilton, ON</td>\n    <td>January 5-9</td>\n    <td></td>\n  </tr>\n   <tr>\n    <td>2009</td>\n    <td>University of Ottawa/td>\n    <td>Ottawa, ON</td>\n    <td>January 6-10</td>\n    <td></td>\n  </tr>\n</table>"
+      twig: '0'
+      filter: '0'
+    block:
+      variations: title-center

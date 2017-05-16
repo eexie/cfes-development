@@ -1,0 +1,266 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1493084029
+layout:
+  navigation: {  }
+  /header/:
+    -
+      - owlcarousel-5766
+  /intro/: {  }
+  /features/:
+    -
+      - 'horizontalmenu-8428 33.3'
+      - 'logo-7151 33.3'
+      - 'horizontalmenu-5462 33.3'
+    -
+      - custom-8315
+  utility: {  }
+  above: {  }
+  /testimonials/:
+    -
+      - custom-9426
+  /expanded/:
+    -
+      - custom-1806
+    -
+      - 'custom-3445 33.3'
+      - 'custom-4513 33.3'
+      - 'custom-3002 33.3'
+    -
+      - 'custom-1909 33.3'
+      - 'custom-3590 33.3'
+      - 'custom-9733 33.3'
+    -
+      - 'custom-9419 33.3'
+      - 'custom-3429 33.3'
+      - 'custom-9340 33.3'
+    -
+      - custom-7274
+  /container-main/:
+    -
+      -
+        'mainbar 75': {  }
+      -
+        'sidebar 25': {  }
+  footer: {  }
+  offcanvas: {  }
+structure:
+  navigation:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  header:
+    attributes:
+      boxed: ''
+      class: g-flushed
+      extra:
+        -
+          style: 'max-height:580px;'
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      extra:
+        -
+          style: 'display:none;padding: 1.5em 0;'
+    inherit:
+      outline: canadian_engineering_competition
+      include:
+        - children
+  features:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  utility:
+    type: section
+    inherit:
+      outline: about
+      include:
+        - attributes
+        - block
+        - children
+  above:
+    type: section
+    inherit:
+      outline: canadian_engineering_competition
+      include:
+        - attributes
+        - block
+        - children
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      extra:
+        -
+          style: 'display:none;background-color:#f0f0f0;'
+  mainbar:
+    type: section
+    subtype: main
+    inherit:
+      outline: about
+      include:
+        - attributes
+        - block
+        - children
+  sidebar:
+    type: section
+    subtype: aside
+    inherit:
+      outline: about
+      include:
+        - attributes
+        - block
+        - children
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+content:
+  owlcarousel-5766:
+    title: 'Owl Carousel'
+    attributes:
+      nav: disable
+      items:
+        -
+          image: 'gantry-media://32930271740_7e2053a5a3_k.jpg'
+          title: 'International Engineering Competition'
+          desc: 'Bringing together the brightest students from all across Canada, the United States, and Europe to compete in consulting and design.'
+          link: ''
+          linktext: ''
+          buttonclass: ''
+          name: 'Item 1'
+  horizontalmenu-8428:
+    title: 'Horizontal Menu'
+  logo-7151:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://iec_logo.png'
+      link: '0'
+      class: ''
+  horizontalmenu-5462:
+    title: 'Horizontal Menu'
+  custom-8315:
+    title: Intro
+    attributes:
+      html: "<div class=\"fp-intro\">\n<p>The International Engineering Competition (IEC) brings together the brightest students from all across Canada, the United States, and Europe through partnerships with NAESC and BEST to compete in consulting and design. The competitions challenge each participant to solve up-to-date problems engineers have to face by teamwork, creativity, and cleverness.\n<br><br>\nIEC is a highly selective competition. Successful applicants generally have demonstrated a strong academic performance or success in other engineering-related competitions. They have acquired technical skills through past projects or employment, and are familiar with effective consulting practices. IEC presents the unique opportunity to network with potential employers, compete against other high achieving participants, and solve real-life problems engineers continuously face.\n<p id=\"mission-vision\"></p> \n</div>"
+      twig: '0'
+      filter: '0'
+  custom-9426:
+    title: 'Custom HTML'
+    attributes:
+      html: "<div class=\"fp-testimonials\">\n    <blockquote>\n        <p class=\"h3\">\"There’s nothing I believe in more strongly than getting young people interested in science and engineering, for a better tomorrow, for all humankind.”\n</p>\n        <footer>Bill Nye</footer>\n    </blockquote>\n</div>"
+    block:
+      variations: center
+  custom-1806:
+    title: 'Competition Categories Title'
+    inherit:
+      outline: canadian_engineering_competition
+      include:
+        - attributes
+        - block
+      particle: custom-2622
+  custom-3445:
+    title: 'Junior Design'
+    inherit:
+      outline: canadian_engineering_competition
+      include:
+        - attributes
+        - block
+      particle: custom-3574
+  custom-4513:
+    title: 'Senior Design'
+    inherit:
+      outline: canadian_engineering_competition
+      include:
+        - attributes
+        - block
+      particle: custom-9055
+  custom-3002:
+    title: 'Innovative Design'
+    inherit:
+      outline: canadian_engineering_competition
+      include:
+        - attributes
+        - block
+      particle: custom-4987
+  custom-1909:
+    title: Communications
+    inherit:
+      outline: canadian_engineering_competition
+      include:
+        - attributes
+        - block
+      particle: custom-8008
+  custom-3590:
+    title: Consulting
+    inherit:
+      outline: canadian_engineering_competition
+      include:
+        - attributes
+        - block
+      particle: custom-6664
+  custom-9733:
+    title: RE-ENGINEERING
+    inherit:
+      outline: canadian_engineering_competition
+      include:
+        - attributes
+        - block
+      particle: custom-9139
+  custom-9419:
+    title: 'Custom HTML'
+    inherit:
+      outline: canadian_engineering_competition
+      include:
+        - attributes
+        - block
+      particle: custom-4040
+  custom-3429:
+    title: DEBATE
+    inherit:
+      outline: canadian_engineering_competition
+      include:
+        - attributes
+        - block
+      particle: custom-9081
+  custom-9340:
+    title: 'Custom HTML'
+    inherit:
+      outline: canadian_engineering_competition
+      include:
+        - attributes
+        - block
+      particle: custom-3043
+  custom-7274:
+    title: 'Past hosts'
+    inherit:
+      outline: canadian_engineering_competition
+      include:
+        - attributes
+        - block
+      particle: custom-1384

@@ -1,0 +1,156 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1493084029
+layout:
+  navigation: {  }
+  /header/:
+    -
+      - owlcarousel-9411
+  /intro/:
+    -
+      - custom-4716
+    -
+      - position-widget-7000
+  /features/:
+    -
+      - custom-2524
+  utility: {  }
+  above: {  }
+  testimonials: {  }
+  expanded: {  }
+  /container-main/:
+    -
+      -
+        'mainbar 75': {  }
+      -
+        'sidebar 25': {  }
+  footer: {  }
+  offcanvas: {  }
+structure:
+  navigation:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  header:
+    attributes:
+      boxed: ''
+      class: g-flushed
+      extra:
+        -
+          style: 'max-height:580px;'
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      extra:
+        -
+          style: 'padding: 1.5em 0;'
+  features:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  utility:
+    type: section
+    inherit:
+      outline: about
+      include:
+        - attributes
+        - block
+        - children
+  above:
+    type: section
+    inherit:
+      outline: canadian_engineering_competition
+      include:
+        - attributes
+        - block
+        - children
+  testimonials:
+    type: section
+    inherit:
+      outline: lean_6_sigma
+      include:
+        - attributes
+        - block
+        - children
+  expanded:
+    type: section
+    inherit:
+      outline: international_engineering_competition
+      include:
+        - attributes
+        - block
+        - children
+  mainbar:
+    type: section
+    subtype: main
+    inherit:
+      outline: about
+      include:
+        - attributes
+        - block
+        - children
+  sidebar:
+    type: section
+    subtype: aside
+    inherit:
+      outline: about
+      include:
+        - attributes
+        - block
+        - children
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+content:
+  owlcarousel-9411:
+    title: 'Owl Carousel'
+    attributes:
+      nav: disable
+      items:
+        -
+          image: 'gantry-media://31294946732_27d2633f7b_k.jpg'
+          title: 'BEST Courses'
+          desc: 'Complementary education courses all across Europe'
+          link: ''
+          linktext: ''
+          buttonclass: ''
+          name: 'Item 1'
+  custom-4716:
+    title: 'Current Year NEM Info'
+    attributes:
+      html: "<div class=\"fp-intro\">\n<h4><strong>BEST Summer Course Applications now Open</strong></h4>\n<p id=\"mission-vision\">Until March 26th</p>\n<a class=\"button button-outline\" href=\"https://drive.google.com/open?id=0B5d68o15dYY2S0l1VUhCQjczbUFRRzE3WHVvNVpUcGw1dmNB\" target=\"_none\">LIST OF COURSES</a>\n<a class=\"button button-outline\" href=\"https://goo.gl/forms/tA5sR1sOExrTaFxU2\" target=\"_none\">APPLICATION</a>\n</div>"
+    block:
+      variations: center
+  position-widget-7000:
+    attributes:
+      widget: '{"type":"widget","widget":"shailan-countdown-widget","title":"BEST Applications Countdown","options":{"widget":{"title":"","event":"","direction":"down","date":"26-03-2017","hour":"00","minutes":"00","seconds":"00","format":"dHMS","timezone":"-5","color":"#000000","bgcolor":"","width":"","radius":"","link":"1","day":"26","month":"03","year":"2017"}}}'
+    block:
+      extra:
+        -
+          style: 'padding:0px 0 30px 0; background-color:#fff;outline:2px solid #fff383;outline-offset: -20px;margin-top:2.5rem;'
+  custom-2524:
+    title: Intro
+    attributes:
+      html: "<div class=\"fp-intro\">\n<p>Through our partnership with <a href=\"http://www.best.eu.org\" target=\"_blank\">BEST (Board of European Students in Technology),</a> all engineering students from a CFES member school are invited to apply to their complementary education courses all over Europe. These are short courses (usually 2 weeks in duration) that focus on a particular technical aspect \"aimed at increasing and widening the professional knowledge in a certain field of technology, especially concerning modern technical applications of technology and the latest research achievements.\" \n<br><br>\nAs a volunteer you’ll have the opportunity to meet Engineering students from all over Europe, to learn about a technical topic, to learn how complementary education courses are organised in BEST, to get to know a European city and, of course, to have fun. \n<br><br>\nMore about the courses from their <a href=\"https://www.best.eu.org/courses/welcome.jsp\" target=\"_blank\">website,</a> along with the list of seasonal courses (note: CFES members need to apply through the form linked above, do not apply on the website).\n<br><br>\nPlease note these courses are in English. Your application letter and correspondence to the groups must be completed in English, and you must be comfortable using English for all written and oral communication.\n</p>\n<p id=\"mission-vision\"></p> \n</div>"
+      twig: '0'
+      filter: '0'

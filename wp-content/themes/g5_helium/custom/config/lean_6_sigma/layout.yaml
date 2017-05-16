@@ -1,0 +1,166 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1493084029
+layout:
+  navigation: {  }
+  /header/:
+    -
+      - owlcarousel-2309
+  /intro/:
+    -
+      - custom-2345
+    -
+      - position-widget-3923
+  /features/:
+    -
+      - custom-4354
+  utility: {  }
+  above: {  }
+  /testimonials/:
+    -
+      - custom-3613
+  expanded: {  }
+  /container-main/:
+    -
+      -
+        'mainbar 75': {  }
+      -
+        'sidebar 25': {  }
+  footer: {  }
+  offcanvas: {  }
+structure:
+  navigation:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  header:
+    attributes:
+      boxed: ''
+      class: g-flushed
+      extra:
+        -
+          style: 'max-height:580px;'
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      extra:
+        -
+          style: 'padding: 1.5em 0;'
+  features:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  utility:
+    type: section
+    inherit:
+      outline: about
+      include:
+        - attributes
+        - block
+        - children
+  above:
+    type: section
+    inherit:
+      outline: canadian_engineering_competition
+      include:
+        - attributes
+        - block
+        - children
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      extra:
+        -
+          style: 'display:none;'
+  expanded:
+    type: section
+    inherit:
+      outline: international_engineering_competition
+      include:
+        - attributes
+        - block
+        - children
+  mainbar:
+    type: section
+    subtype: main
+    inherit:
+      outline: about
+      include:
+        - attributes
+        - block
+        - children
+  sidebar:
+    type: section
+    subtype: aside
+    inherit:
+      outline: about
+      include:
+        - attributes
+        - block
+        - children
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+content:
+  owlcarousel-2309:
+    title: 'Owl Carousel'
+    attributes:
+      nav: disable
+      items:
+        -
+          image: 'gantry-media://31783577473_6d7ea4f917_k.jpg'
+          title: 'Lean 6 Sigma'
+          desc: 'Ten-day L6S Green Belt certification course combining lean manufacturing and Six Sigma waste elimination methodologies'
+          link: ''
+          linktext: ''
+          buttonclass: ''
+          name: 'Item 1'
+  custom-2345:
+    title: 'Current Year Host Info'
+    attributes:
+      html: "<div class=\"fp-intro\">\n<h4><strong>L6S 2018 will be held at ÉTS on August 14-25</strong></h4>\n<p id=\"mission-vision\">Deadline to register is June 1</p>\n<a class=\"button button-outline\" href=\"https://www.facebook.com/events/703771916474487/\">EVENT DETAILS</a>\n</div>"
+    block:
+      variations: center
+  position-widget-3923:
+    inherit:
+      outline: canadian_engineering_competition
+      include:
+        - attributes
+        - block
+      particle: position-widget-8009
+  custom-4354:
+    title: Intro
+    attributes:
+      html: "<div class=\"fp-intro\">\n<p>Lean 6 Sigma (L6S) is the combination of lean manufacturing and Six Sigma principles, forming a methodology of systematic improvement of efficiency. This system seeks to eliminate various types of waste in processing and manufacturing industries to improve overall operation efficacy. The CFES is proud to offer a ten-day L6S Green Belt certification course provided by trainers and professionals from the Canada Post Corporation.\n\nThroughout the course, lean management theory will be studied through lecture and case study analysis. On the final day of the course, an exam is given to students to evaluate their development. A final grade of 80% is required to pass the course. After results have been confirmed, successful students will be award a Lean 6 Sigma Green Belt.</p>\n<p id=\"mission-vision\"></p> \n</div>"
+      twig: '0'
+      filter: '0'
+  custom-3613:
+    title: 'Custom HTML'
+    inherit:
+      outline: international_engineering_competition
+      include:
+        - attributes
+        - block
+      particle: custom-9426

@@ -1,0 +1,233 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1493084029
+layout:
+  navigation: {  }
+  /header/:
+    -
+      - owlcarousel-5024
+  /intro/:
+    -
+      - custom-5313
+    -
+      - position-widget-8009
+  /features/:
+    -
+      - custom-2141
+  utility: {  }
+  /above/: {  }
+  /testimonials/:
+    -
+      - custom-2888
+  /expanded/:
+    -
+      - custom-2622
+    -
+      - 'custom-3574 33.3'
+      - 'custom-9055 33.3'
+      - 'custom-4987 33.3'
+    -
+      - 'custom-8008 33.3'
+      - 'custom-6664 33.3'
+      - 'custom-9139 33.3'
+    -
+      - 'custom-4040 33.3'
+      - 'custom-9081 33.3'
+      - 'custom-3043 33.3'
+    -
+      - custom-1384
+  /container-main/:
+    -
+      -
+        'mainbar 75': {  }
+      -
+        'sidebar 25': {  }
+  footer: {  }
+  offcanvas: {  }
+structure:
+  navigation:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  header:
+    attributes:
+      boxed: ''
+      class: g-flushed
+      extra:
+        -
+          style: 'max-height:580px;'
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      extra:
+        -
+          style: 'padding: 1.5em 0;'
+  features:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  utility:
+    type: section
+    inherit:
+      outline: about
+      include:
+        - attributes
+        - block
+        - children
+  above:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      extra:
+        -
+          style: 'background-color:#f0f0f0;'
+  mainbar:
+    type: section
+    subtype: main
+    inherit:
+      outline: about
+      include:
+        - attributes
+        - block
+        - children
+  sidebar:
+    type: section
+    subtype: aside
+    inherit:
+      outline: about
+      include:
+        - attributes
+        - block
+        - children
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+content:
+  owlcarousel-5024:
+    title: 'Owl Carousel'
+    attributes:
+      nav: disable
+      items:
+        -
+          image: 'gantry-media://32930271740_7e2053a5a3_k.jpg'
+          title: 'Canadian Engineering Competition'
+          desc: 'The annual gathering of the very best and brightest engineering students across Canada! Through seven different competitions, students will be challenged in the fields of innovation, design and communications.'
+          link: ''
+          linktext: ''
+          buttonclass: ''
+          name: 'Item 1'
+  custom-5313:
+    title: 'Current Year Host Info'
+    attributes:
+      html: "<div class=\"fp-intro\">\n<h4><strong>CEC 2018 will be held at Ryerson University on March 8-11</strong></h4>\n<p id=\"mission-vision\">The theme is <strong>\"[THEME]\"</strong>, chosen to _______</p>\n<a class=\"button button-outline\" href=\"http://cec.cfes.ca/\" target=\"_none\">VIST WEBSITE</a>\n</div>"
+    block:
+      variations: center
+  position-widget-8009:
+    attributes:
+      widget: '{"type":"widget","widget":"shailan-countdown-widget","title":"CEC Countdown","options":{"widget":{"title":"","event":"","direction":"down","date":"08-03-2018","hour":"16","minutes":"00","seconds":"00","format":"dHMS","timezone":"-5","color":"#000000","bgcolor":"","width":"","radius":"","link":"1","day":"08","month":"03","year":"2018"}}}'
+      key: widget
+    block:
+      extra:
+        -
+          style: 'padding:0px 0 30px 0; background-color:#fff;outline:2px solid #fff383;outline-offset: -20px;margin-top:2.5rem;'
+  custom-2141:
+    title: Intro
+    attributes:
+      html: "<div class=\"fp-intro\">\n<p>Each year, the Canadian Engineering Competition (CEC) brings together 150 of the most innovative and creative engineering undergraduate students from across the nation to compete against each other in design, consulting, presentation and debate. Each competition category at CEC challenges its participants to expand their frame of reference and to identify solutions to problems experienced by our profession.\n<br><br>\nEstablished in 1985, and hosted yearly at a constituent university, CEC is a highly selective competition. Those invited must first best their peers at their own <strong>intra-university</strong> competition, and then must achieve a top performance at their respective <strong>regional competition</strong> (Atlantic Region, Quebec, Ontario, and Western Region). In true Canadian style, CEC is a bilingual event, permitting English and French speaking students to compete in their native language, with simultaneous translation available for judges and observers in both languages.\n<br><br>\nThe competition represents a <strong>valuable opportunity for industry participation</strong> and support, and sponsors and contributors propose real-world case studies for competition themes. The judges are drawn from related industry fields, or academia, and share their experiences with the competitors throughout the weekend as they network with the top up-and-coming engineers.</p>\n<p id=\"mission-vision\"></p> \n</div>"
+      twig: '0'
+      filter: '0'
+  custom-2888:
+    title: 'Custom HTML'
+    attributes:
+      html: "<div class=\"fp-testimonials\">\n    <blockquote>\n        <p class=\"h3\">\"CEC pits you against the top engineering students from across the country, and it’s really exhilarating to see how you and your school stack up”\n</p>\n        <footer> Sean Heisler, Extemporaneous Debate 2009-2011</footer>\n    </blockquote>\n</div>"
+    block:
+      variations: center
+  custom-2622:
+    title: 'Competition Categories Title'
+    attributes:
+      html: '<h2 class="g-title">Competition Categories</h2>'
+    block:
+      variations: title-center
+  custom-3574:
+    title: 'Junior Design'
+    attributes:
+      html: "<a class=\"event-card disabled\">            <div class=\"card\">\n                <div class=\"card-block\">\n                    <h3 class=\"card-title\">JUNIOR DESIGN</h3>\n                   <hr>\n                    <p class=\"card-text\">You'll be given a real-world problem and must work within limiting time and budget constraints to design, create, and test a physical prototype of their proposed solution. As the competitors are just beginning their engineering studies, concepts will be based off a general level of engineering knowledge, such as forces, mechanics, etc.\n<br><br>\n<em>You must be in the first two years of your degree programs.</em></p>\n                </div>\n            </div>\n </a>"
+    block:
+      variations: box2
+  custom-9055:
+    title: 'Senior Design'
+    attributes:
+      html: "<a class=\"event-card disabled\">            <div class=\"card\">\n                <div class=\"card-block\">\n                    <h3 class=\"card-title\">SENIOR DESIGN</h3>\n                   <hr>\n                    <p class=\"card-text\">You'll be given a real-world problem and must work within limiting time and budget constraints to design, create, and test a physical prototype of their proposed solution. As the competitors are near the completion of their engineering studies, concepts they may need in their design can span a variety of disciplines.\n<br><br>\n<em>You must be in the last two years of your degree programs.</em></p>\n                </div>\n            </div>\n </a>"
+    block:
+      variations: box2
+  custom-4987:
+    title: 'Innovative Design'
+    attributes:
+      html: "<a class=\"event-card disabled\">            <div class=\"card\">\n                <div class=\"card-block\">\n                    <h3 class=\"card-title\">INNOVATIVE DESIGN</h3>\n                   <hr>\n                    <p class=\"card-text\">You will combine your creativity and knowledge to develop new technological designs or improve upon existing ones. The research and ideas developed are done outside of the competition, which you'll present a high-quality display to the judges. Your professional presentation should demonstrate the technical, social, environmental, and economic impact of your design.\n<br><br>\n<em>Competitors in all years of engineering studies are eligible for participation.</em></p>\n                </div>\n            </div>\n </a>"
+    block:
+      variations: box2
+  custom-8008:
+    title: Communications
+    attributes:
+      html: "<a class=\"event-card disabled\">            <div class=\"card\">\n                <div class=\"card-block\">\n                    <h3 class=\"card-title\">COMMUNICATIONS</h3>\n                   <hr>\n                    <p class=\"card-text\">You must explain an applicable process or issue of your choice, and form a coherent argument that clearly identifies its social, economical, technological, and environmental impacts. Your explanation should be aimed at catering to an audience of various technological backgrounds.\n<br><br>\n<em>Competitors in all years of engineering studies are eligible for participation.</em></p>\n                </div>\n            </div>\n </a>"
+    block:
+      variations: box2
+  custom-6664:
+    title: Consulting
+    attributes:
+      html: "<a class=\"event-card disabled\">            <div class=\"card\">\n                <div class=\"card-block\">\n                    <h3 class=\"card-title\">CONSULTING</h3>\n                   <hr>\n                    <p class=\"card-text\">You will combine your creativity and knowledge to develop new technological designs or improve upon existing ones. The research and ideas developed are done outside of the competition, which you'll present a high-quality display to the judges. Your professional presentation should demonstrate the technical, social, environmental, and economic impact of your design.\n<br><br>\n<em>Competitors in all years of engineering studies are eligible for participation.</em></p>\n                </div>\n            </div>\n </a>"
+    block:
+      variations: box2
+  custom-9139:
+    title: RE-ENGINEERING
+    attributes:
+      html: "<a class=\"event-card disabled\">            <div class=\"card\">\n                <div class=\"card-block\">\n                    <h3 class=\"card-title\">RE-ENGINEERING</h3>\n                   <hr>\n                    <p class=\"card-text\">You are encouraged to use creativity and innovation in order to redesign an existing product or process either to improve its functionality or to adapt it for a completely new purpose. You will be judged based on functionality, practicality, feasibility, and marketability.\n<br><br>\n<em>Competitors in all years of engineering studies are eligible for participation.</em></p>\n                </div>\n            </div>\n </a>"
+    block:
+      variations: box2
+  custom-4040:
+    title: 'Custom HTML'
+  custom-9081:
+    title: DEBATE
+    attributes:
+      html: "<a class=\"event-card disabled\">            <div class=\"card\">\n                <div class=\"card-block\">\n                    <h3 class=\"card-title\">PARLIAMENTARY DEBATE</h3>\n                   <hr>\n                    <p class=\"card-text\">Engineers are often required to evaluate and argue for or against a proposal on short notice. In this category, you will defend or refute a previously undisclosed resolution using the format of parliamentary debate. Subjects for debate will relate to the fields of engineering and science, or those that is within relation or interest pertaining to engineers and engineering students. You preferably have a broad knowledge of engineering concepts and their impact on society, and have an ability to rationalize decisions quickly and concisely.\n<br><br>\n<em>Competitors in all years of engineering studies are eligible for participation.</em></p>\n                </div>\n            </div>\n </a>"
+    block:
+      variations: box2
+  custom-3043:
+    title: 'Custom HTML'
+  custom-1384:
+    title: 'Past hosts'
+    attributes:
+      html: "<br><h2 class=\"g-title\">Past Hosts</h2>\n<table>\n  <tr>\n    <th>Year</th>\n    <th>Host</th>\n    <th>Location</th>\n    <th>Date</th>\n    <th>Media</th>\n  </tr>\n  <tr>\n    <td>2018</td>\n    <td>Ryerson University</td>\n    <td>Toronto, Ontario</td>\n    <td>March 8-11</td>\n    <td><a href=\"https://www.flickr.com/gp/147682432@N05/88Z1L7\" target=\"_none\">Photos</a>\n  </tr>\n  <tr>\n    <td>2017</td>\n    <td>University of Calgary</td>\n    <td>Calgary, AB</td>\n    <td>March 3-5</td>\n  </tr>\n  <tr>\n    <td>2016</td>\n    <td>McGill University</td>\n    <td>Montréal, QC</td>\n    <td>March 4-6</td>\n  </tr>\n</table>"
+    block:
+      variations: title-center

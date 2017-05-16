@@ -1,0 +1,210 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1493084029
+layout:
+  navigation: {  }
+  /header/:
+    -
+      -
+        -
+          - owlcarousel-5918
+        -
+          - totop-7084
+  /intro/:
+    -
+      - custom-3521
+    -
+      - position-widget-4258
+  /features/:
+    -
+      - 'horizontalmenu-7708 33.3'
+      - 'logo-6997 33.3'
+      - 'horizontalmenu-9063 33.3'
+    -
+      - custom-1476
+  utility: {  }
+  above: {  }
+  /testimonials/:
+    -
+      - custom-4014
+  /expanded/:
+    -
+      - custom-2386
+  /container-main/:
+    -
+      -
+        'mainbar 75': {  }
+      -
+        'sidebar 25': {  }
+  footer: {  }
+  offcanvas: {  }
+structure:
+  navigation:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  header:
+    attributes:
+      boxed: ''
+      class: g-flushed
+      extra:
+        -
+          style: 'max-height:580px;'
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      extra:
+        -
+          style: 'padding: 1.5em 0;'
+  features:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  utility:
+    type: section
+    inherit:
+      outline: about
+      include:
+        - attributes
+        - block
+        - children
+  above:
+    type: section
+    inherit:
+      outline: canadian_engineering_competition
+      include:
+        - attributes
+        - block
+        - children
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      extra:
+        -
+          style: 'background-color:#f0f0f0;'
+  mainbar:
+    type: section
+    subtype: main
+    inherit:
+      outline: about
+      include:
+        - attributes
+        - block
+        - children
+  sidebar:
+    type: section
+    subtype: aside
+    inherit:
+      outline: about
+      include:
+        - attributes
+        - block
+        - children
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+content:
+  owlcarousel-5918:
+    title: 'Owl Carousel'
+    attributes:
+      class: ''
+      title: ''
+      nav: disable
+      dots: disable
+      autoplay: enable
+      autoplaySpeed: '15000'
+      imageOverlay: disable
+      items:
+        -
+          image: 'gantry-media://image.jpg'
+          title: 'National Engineering Month'
+          desc: 'Every year during March throughout the country, Canada celebrates engineering excellence with 500+ events across the nation, showcasing the rewarding and impactful nature of engineering as a profession.'
+          link: 'http://nem-mng.ca'
+          linktext: 'NEM Website'
+          buttonclass: button-outline
+          name: 'Item 1'
+  totop-7084:
+    title: 'To Top'
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: totop-8670
+  custom-3521:
+    title: 'Current Year NEM Info'
+    attributes:
+      html: "<div class=\"fp-intro\">\n<h4><strong>CFES's NEM 2018 Campaign is</strong></h4>\n<p id=\"mission-vision\">TBD</p>\n<a class=\"button button-outline\" href=\"http://cec.cfes.ca/\" target=\"_none\">SHOW YOUR SUPPORT</a>\n</div>"
+    block:
+      variations: center
+  position-widget-4258:
+    attributes:
+      widget: '{"type":"widget","widget":"shailan-countdown-widget","title":"NEM Countdown","options":{"widget":{"title":"","event":"","direction":"down","date":"01-03-2018","hour":"00","minutes":"00","seconds":"00","format":"dHMS","timezone":"-5","color":"#000000","bgcolor":"","width":"","radius":"","link":"1","day":"01","month":"03","year":"2018"}}}'
+      key: widget
+    block:
+      extra:
+        -
+          style: 'padding:0px 0 30px 0; background-color:#fff;outline:2px solid #fff383;outline-offset: -20px;margin-top:2.5rem;'
+  horizontalmenu-7708:
+    title: 'Horizontal Menu'
+    inherit:
+      outline: international_engineering_competition
+      include:
+        - attributes
+        - block
+      particle: horizontalmenu-8428
+  logo-6997:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://NEM-logo.png'
+      link: '0'
+      class: ''
+  horizontalmenu-9063:
+    title: 'Horizontal Menu'
+    inherit:
+      outline: international_engineering_competition
+      include:
+        - attributes
+        - block
+      particle: horizontalmenu-5462
+  custom-1476:
+    title: Intro
+    attributes:
+      html: "<div class=\"fp-intro\">\n<p>Engineer Canada-led initiative <a href=\"https://www.nem-mng.ca/\">National Engineering Month</a> is held in March of every year throughout the country to celebrate engineering excellence in Canada. With a variety of unique programs in every province and territory, over 500 events across the nation showcase the rewarding and impactful nature of engineering as a profession.\n<br><br>\nFrom Engineers Canada:\n<blockquote>\n[National Engineering Month] is an opportunity for youth to learn about many disciplines of engineering, and allow them to see where their skill set and interests are best fitted. Since there are so many areas of engineering, it’s important for kids to understand the various things they can do as engineers so they can pick the discipline that truly motivates and excites them the most. Additionally, the month can teach youth what exactly is needed to excel in the profession.\n</blockquote>\n<br>\nThis is a sentiment that the Canadian Federation of Engineering Students aims to express. Young Canadian students of today are the country’s workforce of tomorrow, and with an ever-growing need for engineers, we want to help inform children of the possibilities and opportunities they may have as a professional engineer.\n<p id=\"mission-vision\"></p> \n</div>"
+      twig: '0'
+      filter: '0'
+  custom-4014:
+    title: 'Custom HTML'
+    attributes:
+      html: "<div class=\"fp-testimonials\">\n    <blockquote>\n        <p class=\"h3\">\"Engineering is my whole life. It’s going to be 42 years that I’ve worked, and I’ve always worked at this job of being an engineer. I don’t think I could do anything else.”\n</p>\n        <footer>Claude Rollin, P.Eng.</footer>\n    </blockquote>\n</div>"
+    block:
+      variations: center
+  custom-2386:
+    title: 'Custom HTML'
